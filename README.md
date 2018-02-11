@@ -1,9 +1,11 @@
 nimo-markdown-cv
 ================
 
-A curriculum vitae template that let you write your resume in markdown and support both HTML and PDF output formats. To generate the cv, we use [Jekyll](https://jekyllrb.com/).
+![](assets/README-ed44e.png)
 
-The project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) and the usage is essentially the same.
+A curriculum vitae template that lets you write your resume in Markdown and supports both HTML and PDF output formats. To generate the cv, we use [Jekyll](https://jekyllrb.com/).
+
+The project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) and the usage is essentially the same. We only provide an alternative styling theme.
 
 See Live example of this template [here](http://wodenimoni.com/nimo-markdown-cv/).
 
@@ -32,3 +34,7 @@ Any change you want to make to your CV from then on would have to be done on the
 3. Type `jekyll serve` and you'll be able to see your CV on your local host (the default address is http://localhost:4000).
 4. You can edit the `index.md` file and see changes live in your browser.
 5. To print a PDF, just press *Print*. Print and web CSS media queries should take care of the styling.
+
+## Generating PDFs in one command
+
+You can optionally integrate [jekyll-pdf](https://github.com/abeMedia/jekyll-pdf) to the package and automatically generate the PDF along with the HTML version. See more instructions in the [repo](https://github.com/abeMedia/jekyll-pdf).
