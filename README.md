@@ -5,6 +5,8 @@ A curriculum vitae template that let you write your resume in markdown and suppo
 
 The project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) and the usage is essentially the same.
 
+See Live example of this template [here](http://wodenimoni.com/nimo-markdown-cv/).
+
 ***
 
 ## Getting started
@@ -13,16 +15,15 @@ To start, simply [fork the nimo-markdown-cv repo](https://github.com/elipapa/mar
 
 ![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
-To transform your plain text CV into a beautiful looking HTML page and share it you then have two options:
+Your resume content will be contained in `index.md`, which has an example cv. Start by modifying `index.md`! To see the result, you have two options:
 
 ## Using Github Pages to publish it online
 
-1. Delete the existing `gh-pages` branch from your fork. It will only contain this webpage. You can either use git or [the github web interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/#deleting-a-branch)
-2. Create a new branch called `gh-pages` (which will then be a copy of master)
-3. Head to *yourusername*.github.io/markdown-cv to see your CV live.
+1. Go to *Settings* of you git repo. ![](assets/README-5d16f.png)
+2. In the *Github Pages* section, choose *master branch*, which will automatically build your cv and serve it on your free GitHub Pages website. ![](assets/README-0669e.png)
+3. Head to *yourusername*.github.io/nimo-markdown-cv to see your beautiful CV.
 
-Any change you want to make to your CV from then on would have to be done on the `gh-pages` branch and will be immediately rendered by Github Pages.
-
+Any change you want to make to your CV from then on would have to be done on the `master` branch and will be immediately rendered by Github Pages.
 
 ## Build it locally and print a PDF
 
