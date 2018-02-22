@@ -15,7 +15,7 @@ See Live example of this template [here](http://wodenimoni.com/nimo-markdown-cv/
 
 ## Getting started
 
-To start, simply [fork the nimo-markdown-cv repo](https://github.com/elipapa/markdown-cv)
+To start, simply [fork the nimo-markdown-cv repo](https://github.com/wodeni/nimo-markdown-cv)
 
 ![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
