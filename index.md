@@ -19,7 +19,7 @@ pdf: true
 New York, NY
 ```
 - B.S. in Computer Science
-- Major GPA: __4.0__, Cumulative GPA: __3.97__
+- Major GPA: __4.0__, Cumulative GPA: __3.9__
 - Vision, Graphics track
 
 ### __Dickinson College__ `2013.9 - 2016.5`
