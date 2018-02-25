@@ -39,9 +39,9 @@ __Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
 
 ## 经历
 
-### __浙江财经大学, 金融学院__ `2017.1 - Present`
-_负责人_<br>
-- 在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, on __新三板市场中私募股权的经济效应研究__ 课题. 
+### __浙江财经大学, 金融学院__ `2016.11 - Present`
+_项目负责人_<br>
+- 在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, 我作为小组负责人的身份以 __私募股权对新三板市场的经济效应研究——以股转系统中浙江省数据为例__ 为研究课题申请了国家级大学生创新训练项目并成功立项。目前后续的结题还在进行中。
 
 
 ### __杭州英伯力投资__  `2016.7 - 2016.8`
@@ -59,7 +59,7 @@ _实习生_<br>
 - 大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得99分的高分，基本入门Python语言，初步掌握了jupyter notebook的操作以及熟悉了pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。 
 - 同时在该学期[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中的final project，本人应用了所学的python知识，最终英语报告得分95分，该分数高于当时所有参加课程的研究生。
 
-[成绩公示] [报告中文版html]
+[[成绩公示]()] [报告中文版 [html]()]
 ### __Stata__ `ZUFE, 2017` <br>
 - 大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程中，学习了计量经济学的原理和stata的基础操作，并与另一同学合作做了两篇AER（分别关于教育收益率和产权与金融）的文献精读 （包括全文翻译、原文数据、实证结果复刻、presentation）。最后，该课程的期末作业是用我们小组找到的文献数据用stata去做结果复制。
 ### __Excel__ `ZUFE, 2016` <br>
