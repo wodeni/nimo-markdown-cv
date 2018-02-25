@@ -55,12 +55,14 @@ Worked on server-side web applications and server deployment tools.
  [Christoph Schubert](https://www.linkedin.com/in/christophschubert/)
  [张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)
  [丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)
- [郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm)
+
 ## 技能
 
-Teaching Assistant, __Python__ `Columbia, 2018` <br>
-Teaching Assistant, __Excel__ `Dickinson, 2016` <br>
-Peer Tutor, __Stata__ `Dickinson, 2016` <br>
+### __Excel__ `ZUFE, 2016` <br>
+大二下本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm) 《Excel在财会中的高级应用》课程中获得了96分的高分 掌握了vlookup等函数 VBA
+### __Python__ `ZUFE, 2017` <br>
+大三下本人在信工学院的外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)《Python Programming》课程中获得了99分的高分，基本入门Python语言 掌握了jupyter notebook 以及
+### __Stata__ `Dickinson, 2016` <br>
 Computer Lab Consultant `DIckinson, 2014 - 2016` <br>
 
 
