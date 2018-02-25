@@ -6,7 +6,7 @@ pdf: true
 # __岑__ 锦祥
 
 <div id="webaddress">
-<i class="fi-mobilephone" style="margin-left:1em"></i>
+<i class="fi-home" style="margin-left:1em"></i>
 <a href="17816851891" style="margin-left:0.5em">178-1685-1891</a>
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="cjx02@outlook.com" style="margin-left:0.5em">cjx02@outlook.com</a>
