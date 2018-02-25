@@ -52,18 +52,20 @@ _Software Engineering Intern_<br>
 Worked on server-side web applications and server deployment tools.
 
  [朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)
- [Christoph Schubert](https://www.linkedin.com/in/christophschubert/)
- [张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)
- [丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)
+
+
+
 
 ## 技能
 
 ### __Excel__ `ZUFE, 2016` <br>
-大二下本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm) 《Excel在财会中的高级应用》课程中获得了96分的高分 掌握了vlookup等函数 VBA
+大二下，本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm) 老师的《Excel在财会中的高级应用》课程中获得了96分的高分 掌握了vlookup等函数 VBA
+### __Stata__ `ZUFE, 2017` <br>
+ 大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程
 ### __Python__ `ZUFE, 2017` <br>
-大三下本人在信工学院的外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)《Python Programming》课程中获得了99分的高分，基本入门Python语言 掌握了jupyter notebook 以及
-### __Stata__ `Dickinson, 2016` <br>
-Computer Lab Consultant `DIckinson, 2014 - 2016` <br>
+大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得了99分的高分，基本入门Python语言 掌握了jupyter notebook 以及pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。 并在[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中 的final project应用了所学的python知识，英语报告得分95分分，这一分数高于当时所有参加课程的研究生。
+[成绩公示] [报告中文版html]
+
 
 
 
