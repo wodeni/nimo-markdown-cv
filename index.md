@@ -24,26 +24,15 @@ pdf: true
 - 兴趣领域：数据分析
 
 
-## Publications
 
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
 
 ## 经历
 
 ### __浙江财经大学, 金融学院__ `2016.11 - Present`
 _项目负责人_<br>
-- 在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, 我作为小组负责人的身份以 __私募股权对新三板市场的经济效应研究——以股转系统中浙江省数据为例__ 为研究课题申请了国家级大学生创新训练项目并成功立项。目前后续的结题还在进行中。
+- 在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, 我作为小组负责人的身份以 __《私募股权对新三板市场的经济效应研究——以股转系统中浙江省数据为例》__ 为研究课题申请了国家级大学生创新训练项目并成功立项。目前后续的结题工作还在进行中。
 
-
+[[申报书(assets/%2320160515【正式上交教育部最终版】申报书（打印版）.pdf)]] [[认定书(assets/认定书底稿.jpg)]] 
 ### __杭州英伯力投资__  `2016.7 - 2016.8`
 _实习生_<br>
 - 前往拟投资公司实地调研，对其财务报告进行评估。
