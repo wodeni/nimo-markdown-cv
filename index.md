@@ -50,7 +50,11 @@ Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augument
 _Software Engineering Intern_<br>
 Worked on server-side web applications and server deployment tools.
 
-
+ [朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)
+ [Christoph Schubert](https://www.linkedin.com/in/christophschubert/)
+ [张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)
+ [丁]()
+ [郭德贵]（）
 ## 技能
 
 Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2018` <br>
