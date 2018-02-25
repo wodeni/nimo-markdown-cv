@@ -3,7 +3,7 @@ layout: cv
 title: Nimo's CV
 pdf: true
 ---
-# Wode __Ni__
+# 锦祥 __岑__
 
 <div id="webaddress">
 <i class="fi-home" style="margin-left:1em"></i>
@@ -12,11 +12,11 @@ pdf: true
 <a href="wn2155@columbia.edu" style="margin-left:0.5em">wn2155@columbia.edu</a>
 </div>
 
-## Education
+## 教育
 
-### __Columbia University__ `2016.9 - Present`
+### __浙江财经大学__ `2014.9 - Present`
 ```
-New York, NY
+杭州, 浙江
 ```
 - B.S. in Computer Science
 - Major GPA: __4.0__, Cumulative GPA: __3.9__
