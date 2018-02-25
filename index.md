@@ -59,12 +59,13 @@ Worked on server-side web applications and server deployment tools.
 ## 技能
 
 ### __Excel__ `ZUFE, 2016` <br>
-大二下，本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm)老师的《Excel在财会中的高级应用》课程中获得了96分的高分，基本掌握了vlookup等常用函数，VBA也有涉及。
+大二下，本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm)老师的《Excel在财会中的高级应用》课程中获得了96分的高分，基本掌握了vlookup等常用函数，也有少量的VBA编程。
 ### __Stata__ `ZUFE, 2017` <br>
- 大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程
+ 大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程中，学习了计量经济学的原理和stata的基础操作，并与另一同学合作做了两篇AER（分别关于教育收益率和产权与金融）的文献精读 （包括全文翻译、原文数据、实证结果复刻、presentation）。最后，该课程的期末作业是用我们小组找到的文献数据用stata去做结果复制。
 ### __Python__ `ZUFE, 2017` <br>
-大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得了99分的高分，基本入门Python语言 初步掌握了jupyter notebook 以及pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。 并在[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中 的final project应用了所学的python知识，英语报告得分95分分，这一分数高于当时所有参加课程的研究生。
+大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得99分的高分，基本入门Python语言，初步掌握了jupyter notebook的操作以及熟悉了pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。 同时在该学期[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中的final project，本人应用了所学的python知识，最终英语报告得分95分，该分数高于当时所有参加课程的研究生。
 [成绩公示] [报告中文版html]
+###__Markdown__（本篇CV就是用markdown语法借鉴他人Github的模板输出的）、__LaTex__（在学，毕业论文打算用该语法输出）
 
 
 
