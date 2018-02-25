@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Nimo's CV
+title: cjx02's CV
 pdf: true
 ---
-# 锦祥 __岑__
+# __岑__ 锦祥
 
 <div id="webaddress">
-<i class="fi-home" style="margin-left:1em"></i>
-<a href="http://columbia.edu/~wn2155" style="margin-left:0.5em">columbia.edu/~wn2155</a>
+<i class="fi-mobilephone" style="margin-left:1em"></i>
+<a href="17816851891" style="margin-left:0.5em">178-1685-1891</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="wn2155@columbia.edu" style="margin-left:0.5em">wn2155@columbia.edu</a>
+<a href="cjx02@outlook.com" style="margin-left:0.5em">cjx02@outlook.com</a>
 </div>
 
 ## 教育
@@ -22,13 +22,6 @@ pdf: true
 - Major GPA: __4.0__, Cumulative GPA: __3.9__
 - Vision, Graphics track
 
-### __Dickinson College__ `2013.9 - 2016.5`
-```
-Carlisle, PA
-```
-- B.S. in Computer Science
-- Major GPA: __4.0__, Cumulative GPA: __3.93__
-- Computer Science Departmental Honors
 
 ## Publications
 
@@ -58,7 +51,7 @@ _Software Engineering Intern_<br>
 Worked on server-side web applications and server deployment tools.
 
 
-## Teaching
+## 技能
 
 Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2018` <br>
 Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
@@ -66,7 +59,7 @@ Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016`
 Computer Lab Consultant `DIckinson, 2014 - 2016` <br>
 
 
-## Honors & Awards
+## 获奖
 
 Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
 Computer Science Departmental Honor `DIckinson, 2016` <br>
