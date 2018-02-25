@@ -45,10 +45,12 @@ _实习生_<br>
 ## 技能
 
 ### __Python__ `ZUFE, 2017` <br>
-  大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得99分的高分，基本入门Python语言，初步掌握了jupyter notebook的操作以及熟悉了pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。 
+  大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得99分的高分，基本入门Python语言，初步掌握了jupyter notebook的操作以及熟悉了pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。
+
+-
   同时在该学期[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中的final project，本人应用了所学的python知识，最终英语报告得分95分，该分数高于当时所有参加课程的研究生。
 
-[[成绩公示](assets/成绩公示.png)] [报告中文版 [html]()]
+[[成绩公示](assets/成绩公示.png)] [报告中文版 [html](assets/【定稿】机器学习中特征工程在中国股票市场的应用——基于沪深300指数日度数据.html)]
 ### __Stata__ `ZUFE, 2017` <br>
   大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程中，学习了计量经济学的原理和stata的基础操作，并与另一同学合作做了两篇AER（分别关于教育收益率和产权与金融）的文献精读 （包括全文翻译、原文数据、实证结果复刻、presentation）。最后，该课程的期末作业是用我们小组找到的文献数据用stata去做结果复制。
 ### __Excel__ `ZUFE, 2016` <br>
