@@ -18,9 +18,10 @@ pdf: true
 ```
 杭州, 浙江
 ```
-- B.S. in Computer Science
+- 专业 金融工程（经济学学士学位）
 - Major GPA: __4.0__, Cumulative GPA: __3.9__
-- Vision, Graphics track
+- 课程：
+- 领域：数据分析
 
 
 ## Publications
