@@ -19,8 +19,8 @@ pdf: true
 杭州, 浙江
 ```
 - 专业 金融工程（经济学学士学位）
-- Major GPA: __4.0__, Cumulative GPA: __3.9__
-- 课程：
+- 主修 GPA: __4.0__, 平均 GPA: __3.70__
+- 主要课程：公司金融案例 金融工程原理 金融经济学 投资学 公司金融方法及应用
 - 领域：数据分析
 
 
@@ -54,8 +54,8 @@ Worked on server-side web applications and server deployment tools.
  [朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)
  [Christoph Schubert](https://www.linkedin.com/in/christophschubert/)
  [张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)
- [丁]()
- [郭德贵]（）
+ [丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)
+ [郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm)
 ## 技能
 
 Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2018` <br>
