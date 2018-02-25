@@ -39,21 +39,16 @@ __Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
 
 ## 经历
 
-### __杭州英伯力投资__  `2016.5 - 2017.8`
+### __浙江财经大学, 金融学院__ `2017.1 - Present`
+_负责人_<br>
+在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, on __新三板市场中私募股权的经济效应研究__ 课题. 
+
+
+### __杭州英伯力投资__  `2016.7 - 2016.8`
 _实习生_<br>
 - 前往拟投资公司实地调研，对其财务报告进行评估。
 - 对沪深、新三板的股票标的和行业进行研究，撰写报告供投资经理分析参考；同时收集和整理二级市场的公告和其他重大事项等信息。
-__Penrose__ is a system that automatically visualizes mathematics. The system, comprised of two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
 
-### __Columbia Univeristy, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
- [朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)
 
 
 
