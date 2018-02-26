@@ -1,79 +1,74 @@
 ---
 layout: cv
-title: Nimo's CV
+title: cjx02's CV
 pdf: true
 ---
-# Wode __Ni__
+# __岑__ 锦祥
 
 <div id="webaddress">
 <i class="fi-home" style="margin-left:1em"></i>
-<a href="http://columbia.edu/~wn2155" style="margin-left:0.5em">columbia.edu/~wn2155</a>
+<a href="17816851891" style="margin-left:0.5em">178-1685-1891</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="wn2155@columbia.edu" style="margin-left:0.5em">wn2155@columbia.edu</a>
+<a href="cjx02@outlook.com" style="margin-left:0.5em">cjx02@outlook.com</a>
 </div>
 
-## Education
+## 教育
 
-### __Columbia University__ `2016.9 - Present`
+### __浙江财经大学__ `2014.9 - Present`
 ```
-New York, NY
+杭州, 浙江
 ```
-- B.S. in Computer Science
-- Major GPA: __4.0__, Cumulative GPA: __3.97__
-- Vision, Graphics track
-
-### __Dickinson College__ `2013.9 - 2016.5`
-```
-Carlisle, PA
-```
-- B.S. in Computer Science
-- Major GPA: __4.0__, Cumulative GPA: __3.93__
-- Computer Science Departmental Honors
-
-## Publications
-
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
-
-## Experience
-
-### __Carnegie Mellon University, Research Experiences for Undergraduate__  `2017.5 - 2017.8`
-_Research Assistant_<br>
-__Penrose__ is a system that automatically visualizes mathematics. The system, comprised of two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### __Columbia Univeristy, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+- 专业 金融工程（经济学学士学位）
+- 主修 GPA: __4.0__, 平均 GPA: __3.70__
+- 主要课程：金融学 统计学 投资学 随机过程 公司金融案例 金融工程原理 公司金融方法及应用
+- 兴趣领域：数据分析
 
 
-## Teaching
-
-Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2018` <br>
-Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
-Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016` <br>
-Computer Lab Consultant `DIckinson, 2014 - 2016` <br>
 
 
-## Honors & Awards
+## 经历
 
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honor `DIckinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `DIckinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society  `DIckinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `DIckinson, 2013` <br>
+### __浙江财经大学, 金融学院__ `2016.11 - Present`
+_项目负责人_<br>
+- 在[朴哲范](http://jrxy.zufe.edu.cn/info/2056/1211.htm)教授的指导下, 我作为小组负责人的身份以 __《私募股权对新三板市场的经济效应研究——以股转系统中浙江省数据为例》__ 为研究课题申请了国家级大学生创新训练项目并成功立项。目前后续的结题工作还在进行中。
+
+- [[申报书](assets/#20160515【正式上交教育部最终版】申报书（打印版）.pdf)] [[认定书](assets/认定书底稿.jpg)] 
+### __杭州英伯力投资__  `2016.7 - 2016.8`
+_实习生_<br>
+- 前往拟投资公司实地调研，对其财务报告进行评估。
+- 对沪深、新三板的股票标的和行业进行研究，撰写报告供投资经理分析参考；同时收集和整理二级市场的公告和其他重大事项等信息。
+
+
+
+
+
+## 技能
+
+### __Python__ `ZUFE, 2017` <br>
+- 大三下，本人在信工学院外教[Christoph Schubert](https://www.linkedin.com/in/christophschubert/)的《Python Programming》课程中获得99分的高分，基本入门Python语言，初步掌握了jupyter notebook的操作以及熟悉了pandas、Scikit-Learn、NumPy、Matplotlib等python的数据分析包。
+- 同时在该学期[张文宇](http://info.zufe.edu.cn/info/1049/5085.htm)老师的《数据挖掘技术与应用（英）》研究生课程中的final project，本人应用了所学的python知识，最终英语报告得分95分，该分数高于当时所有参加课程的研究生。
+
+[[成绩公示](assets/成绩公示.png)] [报告中文版 [html](assets/【定稿】机器学习中特征工程在中国股票市场的应用——基于沪深300指数日度数据.html)]
+### __Stata__ `ZUFE, 2017` <br>
+- 大三上，本人在财税学院的[丁建福](http://cz.zufe.edu.cn/info/1077/5865.htm)老师的《计量经济学应用（含STATA）》的研究生课程中，学习了计量经济学的原理和stata的基础操作，并与另一同学合作做了两篇AER（分别关于教育收益率和产权与金融）的文献精读 （包括全文翻译、原文数据、实证结果复刻、presentation）。最后，该课程的期末作业是用我们小组找到的文献数据用stata去做结果复制。
+
+[[英文原文1](assets/2%20Returns%20to%20Educaiton%20Evidence%20from%20U.K.%20Twins.pdf)] [[全文翻译1](assets/【翻译】教育收益_基于英国双胞胎数据.docx)] [[数据复刻1](assets/【复刻】代码%2B数据结果.pdf)] [[文献整理](assets/文献整理.pdf)]
+- [[英文原文2](assets/Property%20Rights%20and%20Finance.pdf)] [[全文翻译2](assets/【修订版】产权与融资.docx)] [[问卷数据](assets/ebrd_que.pdf)] [[Slide](assets/产权与金融.pdf)]
+### __Excel__ `ZUFE, 2016` <br>
+- 大二下，本人在会计学院的[郭德贵](http://zjacc.zufe.edu.cn/info/1182/2588.htm)老师的《Excel在财会中的高级应用》课程中获得了96分的高分，基本掌握了vlookup等常用函数，也有少量的VBA编程。
+### __Markdown__、__LaTex__（在学）`自学, 2017、2018` <br>
+
+
+
+
+## 获奖
+
+
+浙江省大学生证券投资竞赛量化组省二等奖 `ZUFE, 2016` <br>
+浙江省大学生证券投资竞赛策略本科组省二等奖 `ZUFE, 2016` <br>
+校社会工作单项奖学金 `ZUFE, 2016` <br>
+院“明栋基金”筑梦奖学科竞赛类一等奖  `ZUFE, 2017` <br>
+院优秀心理委员 `ZUFE, 2015、2016、2017` <br>
 
 <!-- ### Footer
 
