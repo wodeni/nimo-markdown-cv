@@ -9,7 +9,7 @@ pdf: true
 <i class="fi-home" style="margin-left:1em"></i>
 <a href="http://columbia.edu/~wn2155" style="margin-left:0.5em">columbia.edu/~wn2155</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="wn2155@columbia.edu" style="margin-left:0.5em">woden@andrew.cmu.edu</a>
+<a href="wn2155@columbia.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
 </div>
 
 ## Education
