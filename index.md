@@ -7,9 +7,9 @@ pdf: true
 
 <div id="webaddress">
 <i class="fi-home" style="margin-left:1em"></i>
-<a href="http://columbia.edu/~wn2155" style="margin-left:0.5em">columbia.edu/~wn2155</a>
+<a href="http://www.cs.cmu.edu/~woden" style="margin-left:0.5em">cs.cmu.edu/~woden</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="wn2155@columbia.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
+<a href="woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
 </div>
 
 ## Education
@@ -73,9 +73,9 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 ## Honors & Awards
 
 Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science `Columbia, 2018` <br>
+Excellence in Computer Science Award `Columbia, 2018` <br>
 Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honor `Dickinson, 2016` <br>
+Computer Science Departmental Honors `Dickinson, 2016` <br>
 Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
 Upsilon Pi Epsilon, Computer Science Honor Society  `Dickinson, 2016` <br>
 Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
