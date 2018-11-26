@@ -19,6 +19,7 @@ pdf: true
 Pittsburgh, PA
 ```
 - Ph.D. in Software Engineering
+- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
 
 ### __Columbia University__ `2016.9 - 2018.5`
 ```
