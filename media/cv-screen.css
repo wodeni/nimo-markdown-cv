@@ -140,7 +140,7 @@ li {
 	/*color: #777;*/
 }
 
-#webaddress {
+#contact-info {
 	text-align: center;
 	position: relative;
 	font-weight: lighter;
@@ -149,6 +149,6 @@ li {
 	font-size: 80%;
 }
 
-#webaddress a {
+#contact-info a {
 	text-decoration: none;
 }

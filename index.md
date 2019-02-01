@@ -1,16 +1,21 @@
 ---
 layout: cv
 title: Wode "Nimo" Ni
-pdf: true
+email: woden@cs.cmu.edu
+homepage:
+    url: http://cs.cmu.edu/~woden
+    text: cs.cmu.edu/~woden
 ---
 # Wode __Ni__
 
-<div id="webaddress">
-<i class="fi-home" style="margin-left:1em"></i>
-<a href="http://www.cs.cmu.edu/~woden" style="margin-left:0.5em">cs.cmu.edu/~woden</a>
-<i class="fi-mail" style="margin-left:1em"></i>
-<a href="woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
-</div>
+<!--
+include contact information from the front matter
+Supported arguments:
+    - homepage: url, text
+    - phone
+    - email
+-->
+{% include cv-contact.html %}
 
 ## Education
 
