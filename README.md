@@ -39,4 +39,5 @@ Any change you want to make to your CV from then on would have to be done on the
 
 ## Generating PDFs in one command
 
-You can optionally integrate [jekyll-pdf](https://github.com/abeMedia/jekyll-pdf) to the package and automatically generate the PDF along with the HTML version. See more instructions in the [repo](https://github.com/abeMedia/jekyll-pdf).
+You can optionally integrate [jekyll-pdf](https://github.com/abeMedia/jekyll-pdf) to the package and automatically generate the PDF along with the HTML version. See more instructions in the [repo](https://github.com/abeMedia/jekyll-pdf). As of 02/07/2019, `jekyll-pdf` does not work well with this repo.
+
