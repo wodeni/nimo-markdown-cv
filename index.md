@@ -2,7 +2,7 @@
 layout: cv
 title: Wode "Nimo" Ni
 email: 
-    url: maltto:woden@cs.cmu.edu
+    url: mailto:woden@cs.cmu.edu
     text: woden@cs.cmu.edu
 homepage:
     url: http://cs.cmu.edu/~woden
