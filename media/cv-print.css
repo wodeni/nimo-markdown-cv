@@ -138,7 +138,7 @@ li {
 	/*color: #777;*/
 }
 
-#webaddress {
+#contact-info {
 	text-align: center;
 	position: relative;
 	font-weight: lighter;
@@ -146,7 +146,7 @@ li {
 	/* font-family: Menlo,monospace,sans-serif; */
 }
 
-#webaddress a {
+#contact-info a {
 	text-decoration: none;
 }
 
