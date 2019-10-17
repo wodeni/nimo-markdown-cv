@@ -35,7 +35,27 @@ Carlisle, PA
 - B.S. in Computer Science, _Summa Cum Laude_
 - Computer Science Departmental Honors
 
+<!-- ## Working papers
+
+### **Penrose: From Mathematical Notation to Beautiful Diagrams**
+
+Katherine Ye, **Wode Ni**, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>
+
+### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+
+**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br> -->
+
 ## Publications
+
+### **Defining Visual Narratives for Mathematics Declaratively**
+
+Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_
+
+### **Designing Declarative Language Tutorials: a Guided and Individualized Approach**
+
+Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_
 
 ### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
 __Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
