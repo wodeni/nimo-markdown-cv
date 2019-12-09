@@ -52,17 +52,22 @@ Carlisle, PA
 
 ## Publications
 
+### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+
+**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
+_Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._
+
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
 
 Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
 [[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
 
 ### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
 
 Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
 [[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
 
@@ -78,6 +83,8 @@ _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-
 
 **Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
 [[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
+
+----
 
 ## Experience
 
@@ -123,7 +130,7 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Service
 
-Research Experiences for Undergraduates in Software Engineering (REUSE) Program Admission Committee `CMU, 2019`
+Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019`
 
 <!-- ### Footer
 
