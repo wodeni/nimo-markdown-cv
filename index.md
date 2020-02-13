@@ -52,6 +52,10 @@ Carlisle, PA
 
 ## Publications
 
+### **Penrose: From Mathematical Notation to Beautiful Diagrams**
+Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
+_SIGGRAPH 2020 (under review)._
+
 ### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
 
 **Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
@@ -73,7 +77,8 @@ _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-
 
 ### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
+**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
+_Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
 [[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
 [[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
 [[www](http://penrose.ink)]
