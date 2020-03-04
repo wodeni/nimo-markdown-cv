@@ -1,15 +1,12 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: Wenbiao Lai
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: mailto:wl1276@nyu.edu
+  text: wl1276@nyu.edu
 ---
 
-# Wode **Ni**
+# Wenbiao **Lai**
 
 <!--
 include contact information from the front matter
@@ -21,116 +18,65 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## EDUCATION
 
-### **Carnegie Mellon University** `2018.9 -`
-
-```
-Pittsburgh, PA
-```
-
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
+### **New York University** `2014.9 - 2016.5`
 
 ```
 New York, NY
 ```
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+- Master of Science in Computer Science (GPA: 3.56 / 4)
 
-### **Dickinson College** `2013.9 - 2016.5`
+### **Beihang University** `2009.9 - 2013.7`
 
 ```
-Carlisle, PA
+Beijing, China
 ```
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+- Bachelor of Science in Mathematics and Applied Mathematics
 
-## Publications
+## SKILL
 
-### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+### **Proficient**
+C#, Java, ML inferencing system, NLP, Git, Data Driven Development 
 
-**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
-_Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._
-
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
-
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
-
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
-
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
-
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
-
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
+### **Experienced**
+Python, JavaScript
 
 ----
 
 ## Experience
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+### **Microsoft, Software Engineer at MSAI** `2017.6 - Present`
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+_Focused Inbox_<br>
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
+**Designed** and **built** an inferencing system for Focused Inbox, an AI feature in Outlook which has more than 2.3 millions of daily active users. The system empowers the scientist team to transfer their rule-based algorithm into the machine learning models (e.g. the Gradient Boosting Machine and Distilled BERT DNN)
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
+**Designed** and **built** a new feature store with different teams to help take the offline computed features to the product environment, including the end-to-end data validation and monitoring. The system improves the agility and flexibility of onboarding new features.
 
-### **AsiaInfo** `2015.6 - 2015.8`
+**Designed** and **built** a comprehensive monitoring and alerting system for feature extraction, feature set packaging and model evaluation, which improves the robustness and maintainability of the whole system.
+Integrated the Focused Inbox system with the internal flighting platform to transfer the log-based experiment analysis into the real-time AB experimenting system, which provides a solid evaluation of model performance.
 
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+**Integrated** the Focused Inbox system with the internal static file-based model deployment platform. Transfer the model deployment from code deployment to data deployment, which largely speed up the life cycle of model development and experiment.
 
-## Advising
+_Knowledge Mining_<br>
 
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
+**Built** and **maintained** the Dynamic Workflow Engine as a key member. The system hosts hundreds of NLP scenarios (e.g. Key Phrase Entity) which empower the critical features of Cortex as well as Outlook search.
 
-## Teaching
+**Designed** and **built** the Workflow Resource Manager as a key member. This new feature detects the top consumer of CPU/Memory and halts the costly/abnormal workflow when system hits the capacity limit. 
 
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+### **CERNER, Software Engineer** `2016.10 - 2016.12`
 
-## Honors & Awards
+**Built** an internal service to manage the software libraries, including the certificate and versioning. Implement the features in both back-end and front-end.
+**Onboarded** the inversion of control framework (Spring) to project to make the code more testable.
 
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
+### **Ericsson, ConsumerLab Intern** `2012.7 - 2012.11`
 
-## Service
+**Developed** Logistic Regression classifiers for customer category analysis, which improved about 17.3% precision on test data compared with previous BCG matrix method.
 
-Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019`
+**Designed** customer value index (CVI metric) by using Principle Component Analysis
 
 <!-- ### Footer
 
