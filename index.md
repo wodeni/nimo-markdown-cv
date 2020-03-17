@@ -52,10 +52,12 @@ Carlisle, PA
 
 ## Publications
 
-### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**](assets/chi-20-natural-diagramming.pdf)
 
-**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
-_Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._
+**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
+<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
+_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
+[[PDF](assets/chi-20-natural-diagramming.pdf)]
 
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
 
@@ -103,7 +105,7 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 _Software Engineering Intern_<br>
 Worked on server-side web applications and server deployment tools.
 
-## Advising
+## Mentoring
 
 Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
 Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
@@ -118,6 +120,7 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 ## Honors & Awards
 
+CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
 Phi Beta Kappa `Dickinson, 2018` <br>
 Excellence in Computer Science Award `Columbia, 2018` <br>
 Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
@@ -130,7 +133,7 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Service
 
-Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019`
+Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019 - 2020`
 
 <!-- ### Footer
 
