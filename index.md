@@ -54,10 +54,11 @@ Carlisle, PA
 
 ### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**](assets/chi-20-natural-diagramming.pdf)
 
-**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
+Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
 <i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
 _In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
-[[PDF](assets/chi-20-natural-diagramming.pdf)]
+[[PDF](http://www.cs.cmu.edu/~woden/assets/chi-20-natural-diagramming.pdf)]
+[[BibTeX](http://www.cs.cmu.edu/~woden/assets/chi-20-natural-diagramming.txt)]
 
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
 
