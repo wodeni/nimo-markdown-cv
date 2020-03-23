@@ -57,35 +57,35 @@ Carlisle, PA
 Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
 <i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
 _In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
-[[PDF](http://www.cs.cmu.edu/~woden/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX](http://www.cs.cmu.edu/~woden/assets/chi-20-natural-diagramming.txt)]
+[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
+[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
 
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
 
 Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
 _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+[[slides]({ page.homepage.url }}/aassets/plateau-19-presentation.pdf)]
 
 ### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
 
 Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
 _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
 
 ### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
 
 **Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
+[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
+[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
 [[www](http://penrose.ink)]
 [[repo](https://github.com/penrose/penrose)]
 
 ### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
 
 **Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
+[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
 
 ----
 
