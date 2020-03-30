@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: Wenjing Fang
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
+  url: mailto:wenjing.fang@uconn.edu
+  text: wenjing.fang@uconn.edu
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: wordpress.com\cellsummer
+  text: wordpress.com\cellsummer
 ---
 
-# Wode **Ni**
+# Wenjing **Fang**
 
 <!--
 include contact information from the front matter
