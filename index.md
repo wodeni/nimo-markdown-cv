@@ -56,40 +56,42 @@ Carlisle, PA
 Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
 _SIGGRAPH 2020 (under review)._
 
-### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**](assets/chi-20-natural-diagramming.pdf)
 
-**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
-_Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._
+Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
+<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
+_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
+[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
+[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
 
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
 
 Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
 _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+[[slides]({ page.homepage.url }}/aassets/plateau-19-presentation.pdf)]
 
 ### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
 
 Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
 _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
 [[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
 
 ### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
+**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
+[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
+[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
 [[www](http://penrose.ink)]
 [[repo](https://github.com/penrose/penrose)]
+
+---
 
 ### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
 
 **Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
-
-----
+[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
 
 ## Experience
 
@@ -108,21 +110,15 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 _Software Engineering Intern_<br>
 Worked on server-side web applications and server deployment tools.
 
-## Advising
+## Mentoring
 
 Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
 Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
 Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
 
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
 ## Honors & Awards
 
+CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
 Phi Beta Kappa `Dickinson, 2018` <br>
 Excellence in Computer Science Award `Columbia, 2018` <br>
 Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
@@ -133,9 +129,19 @@ Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
 Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
 John Montgomery Scholarship `Dickinson, 2013` <br>
 
+---
+
+## Teaching
+
+Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
+Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
+Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
+Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+
+
 ## Service
 
-Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019`
+Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2020`
 
 <!-- ### Footer
 
