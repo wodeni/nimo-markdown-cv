@@ -54,9 +54,10 @@ Carlisle, PA
 
 ### **Penrose: From Mathematical Notation to Beautiful Diagrams**
 Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_SIGGRAPH 2020 (under review)._
+_ACM Transactions on Graphics (SIGGRAPH'20), to appear._<br>
+[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**](assets/chi-20-natural-diagramming.pdf)
+### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
 
 Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
 <i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
@@ -94,6 +95,10 @@ _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-
 [[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
 
 ## Experience
+
+### **Microsoft Research** `2020.5 -`
+
+_Research Intern_<br>
 
 ### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
 
