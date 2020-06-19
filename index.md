@@ -58,7 +58,7 @@ _ACM Transactions on Graphics (SIGGRAPH'20), to appear._<br>
 [[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
 [[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
 [[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)
+[[repo](https://github.com/penrose/penrose)]
 
 ### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
 
