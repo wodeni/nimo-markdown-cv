@@ -1,0 +1,13 @@
+version: "3.8"
+services: 
+  web:
+    build:
+      context: ./
+    image: ruby-markdown
+    ports:
+      - 4000:4000
+    volumes: 
+      - ./:/app
+    command: jekyll serve --host 0.0.0.0
+    tty: true
+    stdin_open: true
