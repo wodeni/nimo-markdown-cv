@@ -121,6 +121,7 @@ Worked on server-side web applications and server deployment tools.
 ## Mentoring
 
 Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
+Hwei-Shin Harriman (Olin College of Engineering, independent research) `CMU, 2021` <br>
 Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
 Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
 
@@ -149,8 +150,9 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 ## Service
 
+Sub-reviewer `OOPSLA'21, VL/HCC'21`
 Reviewer `CHI 2021`
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2020`
+Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021`
 
 <!-- ### Footer
 
