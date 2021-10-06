@@ -52,9 +52,10 @@ Carlisle, PA
 
 ## Publications
 
-### **reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**
+### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**](http://wodenimoni.com/assets/uist-21-recode.pdf)
 **Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
 _In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21), to appear._ <br>
+[[PDF](http://wodenimoni.com/assets/uist-21-recode.pdf)]<br>
 
 ### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
 Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
@@ -120,10 +121,11 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 
 ## Mentoring
 
-Hwei-Shin Harriman (Olin College of Engineering, independent research) `CMU, 2021` <br>
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
+[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2021 - Now` <br>
+[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021` <br>
+[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - 2021` <br>
+[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
+[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
 
 ---
 
