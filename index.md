@@ -52,10 +52,14 @@ Carlisle, PA
 
 ## Publications
 
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**](http://wodenimoni.com/assets/uist-21-recode.pdf)
+### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
 **Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21), to appear._ <br>
-[[PDF](http://wodenimoni.com/assets/uist-21-recode.pdf)]<br>
+_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
+[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
+[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
+[[video preview](https://youtu.be/fMdHK9UrgQ4)]
+[[talk](https://youtu.be/_GQ8E7EMMws)]
+
 
 ### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
 Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
@@ -153,7 +157,7 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 ## Service
 
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI 2021` <br>
+Reviewer `CHI 2021, CHI 2022` <br>
 Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021` <br>
 
 <!-- ### Footer
