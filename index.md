@@ -8,7 +8,7 @@ title: 莫政辉
   text: 13262552091
 ---
 
-# Wode **Ni**
+#  莫 政辉
 
 <!--
 include contact information from the front matter
@@ -20,7 +20,7 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 教育经历
 
 ### **Carnegie Mellon University** `2018.9 -`
 
