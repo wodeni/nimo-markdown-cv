@@ -4,8 +4,7 @@ title: 莫政辉
 邮箱:
   url: mailto:artxom@outlook.com
   text: artxom@outlook.com
-手机:
-  text: 13262552091
+手机： 13262552091  
 ---
 
 #  莫 政辉
@@ -22,32 +21,15 @@ Supported arguments:
 
 ## 教育经历
 
-### **Carnegie Mellon University** `2018.9 -`
+### **河南工程学院** `2013.9 - 2017.7`
 
 ```
-Pittsburgh, PA
+统招本科
 ```
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+- 软件工程 专业
 
-### **Columbia University** `2016.9 - 2018.5`
 
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
-
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
 
 ## Publications
 
