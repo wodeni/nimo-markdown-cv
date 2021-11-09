@@ -4,7 +4,6 @@ title: 莫政辉
 邮箱:
   url: mailto:artxom@outlook.com
   text: artxom@outlook.com
-手机： 13262552091  
 ---
 
 #  莫 政辉
