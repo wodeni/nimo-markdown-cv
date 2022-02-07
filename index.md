@@ -148,6 +148,7 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Teaching
 
+Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
 Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
 Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
 Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
