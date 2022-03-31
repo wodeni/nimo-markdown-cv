@@ -158,7 +158,7 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 ## Service
 
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI 2021, CHI 2022, SIGGRAPH 2022` <br>
+Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
 Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021` <br>
 
 <!-- ### Footer
