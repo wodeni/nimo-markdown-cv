@@ -107,6 +107,9 @@ _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-
 [[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
 
 ## Experience
+### **Apple** `2022.5 - 2022.9`
+
+_Research Intern - Machine Intelligence_<br>
 
 ### **Microsoft Research** `2020.5 - 2020.8`
 
@@ -126,10 +129,10 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 ## Mentoring
 
 [Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - Now` <br>
-[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
+[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2021` <br>
+[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2018 - 2021` <br>
+[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
+[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
 
 ---
 
@@ -148,6 +151,7 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Teaching
 
+Teaching Assistant, **Foundations of Software Engineering (17-313)** `CMU, 2022` <br>
 Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
 Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
 Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
@@ -159,7 +163,7 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
 Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021` <br>
+Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2022` <br>
 
 <!-- ### Footer
 
