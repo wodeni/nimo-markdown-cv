@@ -71,7 +71,7 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 
 ### **Rust Rcore OS** `2022.9 - 2022.12`
 介绍：Rcore OS是中国操作系统设计大赛社区的项目之一，本项目提供开源文档，跟随文档进行OS设计。<br>
-工作：学习RCore OS文档，实现RiscV架构的基本OS，运行Hello World二进制文件。[[主页](https://github.com/LearningOS)]
+工作：学习RCore OS文档，实现RiscV架构的基本OS，运行Hello World二进制文件。[[项目主页](https://github.com/LearningOS)]
 
 ### **基于sel4的虚拟化框架** `2021.7 - 2022.7`
 介绍：seL4是一个微内核框架，构建高安全、高实时性的轻量操作系统。<br>
