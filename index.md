@@ -84,6 +84,7 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 ## 实习经历
 ### **清华大学五道口金融学院** `2023.7 - `
 职位：量化策略研究员
+Mentor：吴辉航
 工作内容：学习Qlib AI量化框架
 
 ### **若股量化有限公司** `2023.4 - 2023.6`
