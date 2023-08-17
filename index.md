@@ -62,22 +62,22 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 [[PDF](https://mdpi-res.com/d_attachment/applsci/applsci-11-11951/article_deploy/applsci-11-11951-v2.pdf?version=1639636549)]
 
 ## 科研经历
-### **Rust Hypervisor (Syswonder社区) based on Jailhouse[[主页](http://report.syswonder.org/#/)]** `2023.2 - 2023.6`
+### **虚拟化软件：Rust Hypervisor (Syswonder社区) based on Jailhouse[[主页](http://report.syswonder.org/#/)]** `2023.2 - 2023.6`
 介绍：实现基于ARM64 Rust版本的Jailhouse虚拟化软件，Jailhouse是西门子公司下的开源虚拟机监视器的实现。<br>
 工作：
 1. 初期框架代码编写[[代码](https://github.com:Comet959/armv8-rust-hypervisor)]。
 2. 将该虚拟化软件移植到QEMU、树莓派、IMX8嵌入式板卡中，并撰写文档。[[文档](http://report.syswonder.org/#/2023/20230421_ARM64-QEMU-jailhouse)]
 3. 社区文档maintainer。[[链接](https://github.com/syswonder/report)]
 
-### **Rust Rcore OS** `2022.9 - 2022.12`
+### **操作系统设计：Rust Rcore OS** `2022.9 - 2022.12`
 介绍：Rcore OS是中国操作系统设计大赛社区的项目之一，本项目提供开源文档，跟随文档进行OS设计。<br>
 工作：学习RCore OS文档，实现RiscV架构的基本OS，运行Hello World二进制文件。[[项目主页](https://github.com/LearningOS)]
 
-### **基于sel4的虚拟化框架** `2021.7 - 2022.7`
+### **微内核系统：基于sel4的虚拟化框架** `2021.7 - 2022.7`
 介绍：seL4是一个微内核框架，构建高安全、高实时性的轻量操作系统。<br>
 工作：基于seL4构建Hypervisor虚拟化系统，并运行在嵌入式树莓派4中。
 
-### **Chinese Traffic Police Gesture Recognition Based on Graph Convolutional Network in Natural Scene** `2020.6 - 2020.12`[[PDF](https://mdpi-res.com/d_attachment/applsci/applsci-11-11951/article_deploy/applsci-11-11951-v2.pdf?version=1639636549)]
+### **目标检测：Chinese Traffic Police Gesture Recognition Based on Graph Convolutional Network in Natural Scene** `2020.6 - 2020.12`[[PDF](https://mdpi-res.com/d_attachment/applsci/applsci-11-11951/article_deploy/applsci-11-11951-v2.pdf?version=1639636549)]
 介绍：基于STGCN实现交警手势识别模型。<br>
 工作：复现STGCN，推导新模型，将想法实现。
 
