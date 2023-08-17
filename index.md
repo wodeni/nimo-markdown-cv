@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: 杨竣轶-简历
 email:
   url: mailto:yangjunyi22s@ict.ac.cn
   text: yangjunyi22s@ict.ac.cn
