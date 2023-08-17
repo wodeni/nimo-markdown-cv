@@ -100,6 +100,15 @@ Mentor：吴辉航<br>
 职位：云计算工程师<br>
 工作内容：基于Openstack平台，利用Ansible部署高可用的k8s集群。
 
+## 技能
+1. 系统：yocto、内核编译、内核裁剪、嵌入式开发
+2. 数据分析：R、Matlab、Python
+3. 云计算：K8S、OpenStack、Docker、Wasm
+4. AI：Pytorch、Tensorflow
+5. 开发：C、Rust、Go
+6. 后端：Django、Flask
+7. 硬件：Armv8架构、汇编级调试
+
 <!-- ## 期待的工作 -->
 <!-- ### Footer
 
