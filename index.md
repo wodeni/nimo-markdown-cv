@@ -70,15 +70,15 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 3. 社区文档maintainer。[[链接](https://github.com/syswonder/report)]
 
 ### **Rust Rcore OS** `2022.9 - 2022.12`
-介绍：Rcore OS是中国操作系统设计大赛社区的项目之一，本项目提供开源文档，跟随文档进行OS设计。
+介绍：Rcore OS是中国操作系统设计大赛社区的项目之一，本项目提供开源文档，跟随文档进行OS设计。<br>
 工作：学习RCore OS文档，实现RiscV架构的基本OS，运行Hello World二进制文件。[[主页](https://github.com/LearningOS)]
 
 ### **基于sel4的虚拟化框架** `2021.7 - 2022.7`
-介绍：seL4是一个微内核框架，构建高安全、高实时性的轻量操作系统。
+介绍：seL4是一个微内核框架，构建高安全、高实时性的轻量操作系统。<br>
 工作：基于seL4构建Hypervisor虚拟化系统，并运行在嵌入式树莓派4中。
 
-### **Chinese Traffic Police Gesture Recognition Based on Graph Convolutional Network in Natural Scene** `2020.6 - 2020.12`
-介绍：基于STGCN实现交警手势识别模型。
+### **Chinese Traffic Police Gesture Recognition Based on Graph Convolutional Network in Natural Scene** `2020.6 - 2020.12`[[PDF](https://mdpi-res.com/d_attachment/applsci/applsci-11-11951/article_deploy/applsci-11-11951-v2.pdf?version=1639636549)]
+介绍：基于STGCN实现交警手势识别模型。<br>
 工作：复现STGCN，推导新模型，将想法实现。
 
 ## 工作经历
