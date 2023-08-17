@@ -81,7 +81,7 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 介绍：基于STGCN实现交警手势识别模型。<br>
 工作：复现STGCN，推导新模型，将想法实现。
 
-## 工作经历
+## 实习经历
 ### **清华大学五道口金融学院** `2023.7 - `
 职位：量化策略研究员
 工作内容：学习Qlib AI量化框架
