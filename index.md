@@ -120,6 +120,9 @@ Mentor：吴辉航<br>
 6. 后端：Django、Flask
 7. 硬件：Armv8架构、汇编级调试
 
+## 个人
+### **个人学习博客[[链接](https://comet959.github.io/website/)]**
+记录个人职业发展技能学习路程
 <!-- ## 期待的工作 -->
 <!-- ### Footer
 
