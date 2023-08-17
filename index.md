@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: 杨竣轶-简历
+title: Junyi Yang
 email:
   url: mailto:yangjunyi22s@ict.ac.cn
   text: yangjunyi22s@ict.ac.cn
