@@ -63,11 +63,12 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 
 ## 科研经历
 ### **Rust Hypervisor (Syswonder社区) based on Jailhouse[[主页](http://report.syswonder.org/#/)]** `2023.2 - 2023.6`
-介绍：实现基于ARM64 Rust版本的Jailhouse虚拟化软件，Jailhouse是西门子公司下的开源虚拟机监视器的实现。
+介绍：实现基于ARM64 Rust版本的Jailhouse虚拟化软件，Jailhouse是西门子公司下的开源虚拟机监视器的实现。<br>
 工作：
 1. 初期框架代码编写[[代码](https://github.com:Comet959/armv8-rust-hypervisor)]。
 2. 将该虚拟化软件移植到QEMU、树莓派、IMX8嵌入式板卡中，并撰写文档。[[文档](http://report.syswonder.org/#/2023/20230421_ARM64-QEMU-jailhouse)]
 3. 社区文档maintainer。[[链接](https://github.com/syswonder/report)]
+
 ### **Rust Rcore OS** `2022.9 - 2022.12`
 介绍：Rcore OS是中国操作系统设计大赛社区的项目之一，本项目提供开源文档，跟随文档进行OS设计。
 工作：学习RCore OS文档，实现RiscV架构的基本OS，运行Hello World二进制文件。[[主页](https://github.com/LearningOS)]
@@ -83,9 +84,11 @@ Kang Liu 1,† , Ying Zheng 1,† , **Junyi Yang 2**, Hong Bao 3,* and Haoming Z
 ## 工作经历
 ### **清华大学五道口金融学院** `2023.7 - `
 工作内容：学习Qlib AI量化框架
+
 ### **若股量化有限公司** `2023.4 - 2023.6`
 公司介绍：高频量化交易
 工作内容：使用Pandas处理日交易数据；与mentor一起分析vnpy框架，设计重构C++量化框架；
+
 ### **中科海微（北京）** `2021.1 - 2021.6`
 公司介绍：边缘计算框架、操作系统研发<br>
 工作内容：基于Openstack平台，利用Ansible部署高可用的k8s集群。
