@@ -9,6 +9,18 @@ homepage:
   text: Mon site Github
 ---
 
+# Marco **Chartier**
+
+<!--
+include contact information from the front matter
+Supported arguments:
+    - homepage: url, text
+    - phone
+    - email
+-->
+
+{% include cv-contact.html %}
+
 ## Présentement
 
 Analyste fonctionnel junior pour la solution Microsoft Dynamic 365 Business Central chez Vokeso
@@ -86,7 +98,7 @@ Portail de formation vidéo, *Vokeso*
 `2022`
 Application d'analyse des implémentations projets, *ETS*
 
-# Certification
+## Certification
 
 `2023`, Entry level business analyst, *IIBA*
 
