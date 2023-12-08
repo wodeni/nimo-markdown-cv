@@ -30,6 +30,7 @@ Pittsburgh, PA
 ```
 
 - Ph.D. in Software Engineering
+- MS in 2021
 - Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
 
 ### **Columbia University** `2016.9 - 2018.5`
@@ -128,6 +129,7 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 
 ## Mentoring
 
+[Yiliang "Leo" Liang](https://www.linkedin.com/in/yiliang-liang-a3631a138/) (University of Michigan) `CMU, 2022 - Now` <br>
 [Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - Now` <br>
 [Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2021` <br>
 [Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2018 - 2021` <br>
@@ -163,7 +165,7 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
 Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2022` <br>
+Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2023` <br>
 
 <!-- ### Footer
 
