@@ -5,7 +5,7 @@ email:
   url: mailto:nimo@cmu.edu
   text: nimo@cmu.edu
 homepage:
-  url: http://cs.cmu.edu/~woden
+  url: https://cs.cmu.edu/~woden
   text: cs.cmu.edu/~woden
 ---
 
@@ -53,11 +53,22 @@ Carlisle, PA
 
 ## Publications
 
-### [**Generating Domain-Specific Programs for Diagram Authoring with Large Language Models**](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)
+### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
+**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, Joshua Sunshine. <br>
+_In submission._
 
-Rijul Jain, **Wode Ni**, and Joshua Sunshine.<br>
-_SPLASH 2023: Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH'23 EA)._<br>
-[[PDF](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)]
+### **Rose: Efficient and Extensible Autodiff on the Web**
+Sam Estep, **Wode Ni**, Raven Rothkopf, Joshua Sunshine. <br>
+_arXiv._ <br>
+[[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
+
+### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
+Jiří Minarčík, Sam Estep, **Wode Ni**, Keenan Crane. <br>
+_In ACM SIGGRAPH 2023 Conference Proceedings (SIGGRAPH'24)._ <br>
+
+### **Syntactic Code Search with Sequence-to-Tree Matching**
+Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, Sarah E. Chasins.<br> 
+_In Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
 
 ### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
 **Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
@@ -83,6 +94,13 @@ Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshin
 _In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
 [[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
 [[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+
+
+### [**Generating Domain-Specific Programs for Diagram Authoring with Large Language Models**](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)
+
+Rijul Jain, **Wode Ni**, and Joshua Sunshine.<br>
+_SPLASH 2023: Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH'23 EA)._<br>
+[[PDF](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)]
 
 
 ### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
