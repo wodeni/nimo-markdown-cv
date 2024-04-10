@@ -55,16 +55,16 @@ Carlisle, PA
 
 ### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, Joshua Sunshine. <br>
-_In submission._
+_In Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._
+
+### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
+Jiří Minarčík, Sam Estep, **Wode Ni**, Keenan Crane. <br>
+_In ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
 
 ### **Rose: Efficient and Extensible Autodiff on the Web**
 Sam Estep, **Wode Ni**, Raven Rothkopf, Joshua Sunshine. <br>
 _arXiv._ <br>
 [[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
-
-### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
-Jiří Minarčík, Sam Estep, **Wode Ni**, Keenan Crane. <br>
-_In ACM SIGGRAPH 2023 Conference Proceedings (SIGGRAPH'24)._ <br>
 
 ### **Syntactic Code Search with Sequence-to-Tree Matching**
 Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, Sarah E. Chasins.<br> 
