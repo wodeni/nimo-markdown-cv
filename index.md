@@ -53,22 +53,26 @@ Carlisle, PA
 
 ## Publications
 
-### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, Joshua Sunshine. <br>
-_In Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._
+### **Codifying Visual Representations**
+**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Jiří Minarčík, and Joshua Sunshine. <br>
+_Under Review._ 
 
-### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
-Jiří Minarčík, Sam Estep, **Wode Ni**, Keenan Crane. <br>
-_In ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
-
-### **Rose: Efficient and Extensible Autodiff on the Web**
-Sam Estep, **Wode Ni**, Raven Rothkopf, Joshua Sunshine. <br>
+### **Rose: Composable Autodiff for the Interactive Web**
+Sam Estep, **Wode Ni**, Raven Rothkopf, and Joshua Sunshine. <br>
 _arXiv._ <br>
 [[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
 
+### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
+**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
+_To appear in Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._
+
+### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
+Jiří Minarčík, Sam Estep, **Wode Ni**, and Keenan Crane. <br>
+_To appear in ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
+
 ### **Syntactic Code Search with Sequence-to-Tree Matching**
-Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, Sarah E. Chasins.<br> 
-_In Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
+Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, and Sarah E. Chasins.<br> 
+_To appear in Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
 
 ### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
 **Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
@@ -130,17 +134,23 @@ _Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-
 **Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
 [[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
 
+## Patent
+
+Titus Barik, Gustavo Soares, Piyush Arora, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using an anchor target list. *US Patent 2024/11941372 B2 2024*.
+
+Gustavo Soares, Piyush Arora, Titus Barik, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using a temporal edit pattern.  *US Patent 2024/11875136 B2	2024*.
+
 ## Experience
 ### **Apple** `2022.5 - 2022.9`
 
 _Research Intern - Machine Intelligence_<br>
 
-At [Apple AI/ML](https://machinelearning.apple.com/), I worked on prototypes and features to improve the developer experience. 
+At [Apple AI/ML](https://machinelearning.apple.com/), I worked on prototypes and features to improve the developer experience. Shipped [improved Swift code completion](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes#Source-Editor) in Xcode and designed an syntactic code search algorithm published at PLDI'24.
 
 ### **Microsoft Research** `2020.5 - 2020.8`
 
 _Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience.
+Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience, published at UIST'21.
 
 ### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
 
@@ -165,14 +175,15 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 [Rijul Jain](https://rijuljain.com/) (Williams College) `CMU, 2023 - Now` <br>
 [Yiliang "Leo" Liang](https://www.linkedin.com/in/yiliang-liang-a3631a138/) (University of Michigan) `CMU, 2022 - 2023` <br>
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - 2022` <br>
-[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
+[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering) `CMU, 2021 - 2022` <br>
+[Helena Yang](https://heleaf.me/) (CMU) `CMU, 2021` <br>
+[Max Krieger](https://a9.io/) (CMU) `CMU, 2018 - 2021` <br>
+[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida) `CMU, 2019` <br>
+[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College) `CMU, 2019` <br>
 
 ## Honors & Awards
 
+CMU Open Source Office Fellowship, supported by the Alfred P. Sloan Foundation `CMU, 2023-2024` <br>
 CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
 Phi Beta Kappa `Dickinson, 2018` <br>
 Excellence in Computer Science Award `Columbia, 2018` <br>
@@ -186,6 +197,7 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Service
 
+S3D Department head search committee `CMU, 2024` <br>
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
 Reviewer `CHI'21, CHI'22, SIGGRAPH'22, UIST'23, CHI'24` <br>
 Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2023` <br>
