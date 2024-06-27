@@ -55,24 +55,29 @@ Carlisle, PA
 
 ### **Codifying Visual Representations**
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Jiří Minarčík, and Joshua Sunshine. <br>
-_Under Review._ 
+_To appear in Proceedings of the 14th International Conference on the Theory and Application of Diagrams (DIAGRAMS'24)._ <br>
+[[PDF]({{ page.homepage.url }}/assets/diagrams-24-penrose.pdf)]
 
 ### **Rose: Composable Autodiff for the Interactive Web**
 Sam Estep, **Wode Ni**, Raven Rothkopf, and Joshua Sunshine. <br>
-_arXiv._ <br>
+_To appear in Proceedings of the 38th European Conference on Object-Oriented Programming (ECOOP'24)._ <br>
 [[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
 
 ### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
-_To appear in Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._
+_To appear in Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._ <br>
+[[PDF]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)]
+
 
 ### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
 Jiří Minarčík, Sam Estep, **Wode Ni**, and Keenan Crane. <br>
 _To appear in ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
+[[PDF]({{ page.homepage.url }}/assets/siggraph-24-minkowski.pdf)]
 
 ### **Syntactic Code Search with Sequence-to-Tree Matching**
 Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, and Sarah E. Chasins.<br> 
 _To appear in Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3656460)]
 
 ### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
 **Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
