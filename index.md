@@ -178,7 +178,9 @@ Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
 
 ## Mentoring
 
-[Rijul Jain](https://rijuljain.com/) (Williams College) `CMU, 2023 - Now` <br>
+[Kyle Lee](https://github.com/kyleleesea) (CMU) `CMU, 2024` <br>
+[Griffin Teller](https://griffinteller.com/) (CMU) `CMU, 2024` <br>
+[Rijul Jain](https://rijuljain.com/) (Williams College) `CMU, 2023 - 2024` <br>
 [Yiliang "Leo" Liang](https://www.linkedin.com/in/yiliang-liang-a3631a138/) (University of Michigan) `CMU, 2022 - 2023` <br>
 [Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering) `CMU, 2021 - 2022` <br>
 [Helena Yang](https://heleaf.me/) (CMU) `CMU, 2021` <br>
