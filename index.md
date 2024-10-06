@@ -5,8 +5,8 @@ email:
   url: mailto:nimo@cmu.edu
   text: nimo@cmu.edu
 homepage:
-  url: https://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: https://wodenimoni.com
+  text: wodenimoni.com
 ---
 
 # Wode **Ni**
@@ -23,13 +23,14 @@ Supported arguments:
 
 ## Education
 
-### **Carnegie Mellon University** `2018.9 -`
+### **Carnegie Mellon University** `2018.9 - 2024.9`
 
 ```
 Pittsburgh, PA
 ```
 
 - Ph.D. in Software Engineering
+- Dissertation: _Authoring Conceptual Diagrams by Codifying Visual Representations_
 - MS in 2021
 - Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
 
@@ -98,7 +99,7 @@ _ACM Transactions on Graphics (SIGGRAPH'20)._<br>
 
 ### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
+**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
 <i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
 _In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
 [[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
