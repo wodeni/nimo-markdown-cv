@@ -30,7 +30,7 @@ Pittsburgh, PA
 ```
 
 - Ph.D. in Software Engineering
-- Dissertation: _Authoring Conceptual Diagrams by Codifying Visual Representations_
+- Dissertation: [_Authoring Conceptual Diagrams by Codifying Visual Representations_](https://wodenimoni.com/assets/nimo-dissertation.pdf)
 - Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
 
 ### **Columbia University** `2016.9 - 2018.5`
@@ -62,7 +62,7 @@ Taken my expertise in designing developing domain-specific languages and tooling
 
 ### **Apple** `2022.5 - 2022.9`
 
-_Research Intern - Machine Intelligence_<br>
+_AIML - HCMI - ML Research Intern_<br>
 
 At [Apple AI/ML](https://machinelearning.apple.com/), I worked on prototypes and features to improve the developer experience. Shipped [improved Swift code completion](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes#Source-Editor) in Xcode and designed an syntactic code search algorithm published at PLDI'24.
 
@@ -85,6 +85,12 @@ Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augument
 
 ## Publications
 
+### [**Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)
+**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
+<i class="fas fa-award"></i> <strong>Best Paper Nominee</strong><br>
+_In Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._ <br>
+[[PDF]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)]
+
 ### [**Codifying Visual Representations**]({{ page.homepage.url }}/assets/diagrams-24-penrose.pdf)
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Jiří Minarčík, and Joshua Sunshine. <br>
 _In Proceedings of the 14th International Conference on the Theory and Application of Diagrams (DIAGRAMS'24)._ <br>
@@ -95,18 +101,12 @@ Sam Estep, **Wode Ni**, Raven Rothkopf, and Joshua Sunshine. <br>
 _In Proceedings of the 38th European Conference on Object-Oriented Programming (ECOOP'24)._ <br>
 [[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
 
-### [**Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
-_In Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)]
-
-
 ### [**Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**]({{ page.homepage.url }}/assets/siggraph-24-minkowski.pdf)
 Jiří Minarčík, Sam Estep, **Wode Ni**, and Keenan Crane. <br>
 _In ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
 [[PDF]({{ page.homepage.url }}/assets/siggraph-24-minkowski.pdf)]
 
-### **Syntactic Code Search with Sequence-to-Tree Matching**
+### [**Syntactic Code Search with Sequence-to-Tree Matching**](https://dl.acm.org/doi/pdf/10.1145/3656460)
 Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, and Sarah E. Chasins.<br> 
 _To appear in Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3656460)]
