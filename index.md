@@ -15,82 +15,93 @@ pdf: true
 </div>
 
 
-## **教育背景**
-### **墨尔本大学** `2017.2 - 2019.1 @墨尔本，澳大利亚`
-- 计算机科学 理学硕士学位
+## **Educational BackGround**
+### **The University of Melbourne** `2017.2 - 2019.1 @Melbourne，Australia`
+- Master of Computer Science M.S.
   
-### **华中农业大学(211)** `2012.9 - 2016.6 @武汉，中国`
-- 计算机科学与技术 工学学士学位
+### **HuaZhong Agoricultureal University(211) ** `2012.9 - 2016.6 @Wuhan，China`
+- Computer Science And Technology B.Eng.
   
-## **工作经历**
-### **广州库洛科技有限公司** `2024.12 - 至今`
-- UE5客户端（3C动画）
+## **Work Experience**
+### **Guangzhou Kuluo Technology Co., Ltd​** `2024.12 - now`
+- UE5 Client Developer（3C, Animation）
 
-### **深圳前海创梦天地** `2020.4 - 2024.11`
-- UE4客户端（玩法，角色）
+### **SHENZHEN IDREAMSKY TECHNOLOGY CO.,LTD.​​** `2020.4 - 2024.11`
+- UE4 Client Developer（Gameplay, 3C, Animation）
   
-### **腾讯计算机系统有限公司** `2019.4 - 2020.4`
-- TuringLab自动化测试开发
+### **Shenzhen Tencent Computer System Co., Ltd.​** `2019.4 - 2020.4`
+- TuringLab ​​Automated Test Developer
 
-## **技术栈**
-### **UE技能**
-- CMC实现细节
-  - Tick, RootMotion, Auto-Server-Simu同步和插值细节
-  - CMC官方移动模式的实现细节
-- 动画
-  - ALS，Lyra以及部分GASP Loco设计思路以及实现细节，对应的动画设计要求
-  - 从SkeleltalMeshComponent的Tick开始的动画更新和解算的实现细节
-  - 绝大部分AnimNode的代码细节
-  - KawaiiPhysics源码细节。
-- RawInput源码流程
-- 相机管理
-- 网络同步
-- Gameplay框架
+## **Skills**
+### **Framework Skills**
+- CMC
+  - Tick, RootMotion, DS Autonoumous-Server-Simulated framework.
+  - Source code MovmentModes implementation details.
+- Animation
+  - Deep dive into ALS, Lyra and Locomotion of GASP. Familiar with their animation framework details, and animation asset requirements.
+  - Deep dive into UE4 Aniamtion code framework: SkinnedMeshComponent.Tick, AnimationInstance, AnimationProxy.
+  - Almost all implementations of AnimNode for UE4, part of UE5(Animation Warping, RootOffset, FootPlacement, LegIK etc.).
+  - Deep dive into KawaiiPhysics code implementation.
+- UE4 RawInput: familiar with the progress from winpumpmessage to playerinput and PlayerController TickPlayerInput.
+- CameraManager: familiar with UpdateCamera and viewtarget management.
+- Network Replication: RPCs and property replication. Once deep dive into the code.
+  - NetDriver dispatch, flush and ServerReplicateActors.
+  - Channels, ObjectReplicator, Replayout, ChangeListManager.
+- Gameplay framework
+  - Initializations of GameMode, GameState, PlayerContoller, PlayerState and Pawn.
+  - Client login progress.
     
-### **模块技能**
-- 移动组件的定制化开发
-- 动画框架搭建：Arpg和射击类型游戏角色的动画框架设计
-- 单动画实例下支持部位混搭的换肤
-- 枪械武器
-- 角色状态机
-- 玩法相关的框架设计
+### **Gameplay Skills**
+- Complex movment logic design with CMC.
+- Zero to one game animation framework for Shooting games and ARPG games.
+- Modular character with one single animation instance.
+- Weapon developing, especially for guns.
+- Character state machine designs.
+- Gameplay developing like game rules, basic uses of GAS, etc.
 
-### **个人技术文档和练手Demo**
-- 顶部个人信息栏(https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud?from=space_shared_folder)
+### **Personal documentations and practicing demo**
+- https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud?from=space_shared_folder
 
-## **项目经历**
-### **Nami** `2024.12 - 至今`
- - 动画系统的重构：主要目的为逻辑解耦，规范框架使用思路，提升框架拓展性的同时保证功能的稳定性。
-   - 重构动画状态的管理组件。包括父子状态选取，状态切换，状态Tag，状态对技能流程的响应，状态对移动的管理。
-   - 重做Ground，Jump，Falling等Loco处理逻辑。不同情况下需要不同的Loco动画以及衔接动画，比如（技能，墙面移动）进入地面移动，进入下落，或者跳跃时。
-   - 大量使用Tag作为功能的条件以及状态。
- - 动画和移动功能的开发。
-   - 跑线：单独的移动模式，驱动数据参考Spline，但是以接口的形式提供，不限于Spline。不影响动画表现，支持冲刺这类高速位移。
-   - 全图跑墙：根据相机、墙面、移动方向，构造不同的输入坐标系。相机与墙面或者速度方向正向反向都能有很好的手感，支持倒立行走，可以处理非常复杂的墙面过渡。RootComponent和模型插值处理。RootComponent碰撞穿插后的调整，任何时候都不会卡住。
-   - 地面自动避障：地面移动无法Stepup的情况触发不同高度的跳跃。拓展后可以支持到其他移动模式，比如墙面移动。
-   - 蹬墙跳、出墙跳、下落边缘跳：每种跳跃都有多种触发动画。综合相机、高度、墙面角度，技能状态、Loco状态等因素决定。支持曲线对速度，重力，能否落地的控制。在不考虑URO和动画Tick优化的情况下，可以还原动画制作的RootMotion。
-   - 地面移动动画表现优化：慢跑、快跑、冲刺的过渡表现，以及动画叠加和过渡时副手IK的稳定（VB）。技能打断Loco后根据技能特性，可以回到跑或者冲刺的状态。
-   - 目压触发的特殊Loco：结合技能流程（其他人的模块），通过Timeline添加移除Tag的方式控制窗口期以及Loco的强行退出。LocoSystem仅对Tag和Payload进行响应。最后做到的是可配置的目压的连段位移，不同的情况可以触发不同的连段，完全由策划控制。并且结束后可以以特殊的动画回到Loco（美术规格）。
- - 全混搭的换装：目前是一个跑通验证流程，并包含完整配置流程的Demo。以插件形式通过组件和接口赋予Actor换装的功能。
-   - 角色的模型由若干个单独的PartMesh拼凑而成，每个Part可以使用不同的皮肤。同时支持两种方案：
-     - 没有裸模，Part带有主体模型。使用UE5 MergeMesh对模型进行融合，但是会丢失PhysicsAsset和Morph数据，需要额外处理。一个SkeletamMeshComponent。
-     - 有裸模，Part不带主体模型。仅飘带、衣物等、以及部分主骨架。使用LeaderPoseComponent，不MerMesh，对PhysicsAsset和Morph无影响。多个SkeletalMeshComponent。
-   - 增量骨架，以及对源码做了轻微的修改。仅需要一个AnimInstance，一套主骨架动画。每个部位的每个皮肤一套动画，BindPose差别不大时可以复用。
-   - 动画逻辑处理只需要关心主骨架动画，AnimInstance会根据部位动画的配置Asset根据名称找到对应的部位动画进行播放。支持蒙太奇，BlendSpace。
-   - 功能组件化，不依赖Actor类型。使用时只需要通过组件接口传入部件信息的Array即可。部件信息仅包括部件ID和部件皮肤ID。
-   - 需要额外在组件上配置一个Actor的资源目录，组件会根据传入的部件ID、皮肤ID构造资源路径读取和皮肤相关的所有配置，并构造和维护运行时使用数据。其中包括，部位皮肤信息配置，模型配置，动画配置，特效配置，音效配置，以及筛选器(Chooser)配置等，支持拓展。
-   - 筛选器配置是一套固定流程时执行的筛选器CLASS集合，用于无状态地处理传入的皮肤信息。主要用于处理部件指定皮肤的风格化，即SubID的管理（默认000）。比如，一个指定部位皮肤在与其他部位皮肤混搭时，需要出现不同的变种。可以做散件和套装的区分，做在其他部位有不同设计时与其一定程度的衔接。
- - UE4.27升级到UE5.5.4：移动和动画。4.27时项目引擎使用的是鸣潮早期的版本。
-   - 动画相关的内容不多。此前大部分内容都弃用。整个过程更多的是了解鸣潮此前对动画做了哪些引擎相关的改动，需要判断哪些需要保留，哪些需要移除。
-   - 移动组件的情况复杂很多。一方面是有大量鸣潮旧版本对源码的修改，一方面是项目组成员此前大量的不规范使用。比如将PhysWalking继承出来，舍弃Super调用。Velocity想改就改。
-     - 源码方面：同样整理了鸣潮此前对引擎的修改内容。还原了大量目前我们不需要的修改，大部分是和移动模式相关的计算。
-     - 项目方面：将子类的暴力继承改回了使用父类的逻辑。调整一些逻辑的实现位置，比如此前PhysXXX相关的修改该放到PerformMovement的哪个环节中，哪些该用RootMotion实现，哪些该用动力学方法实现等。源码实在不支持的修改再从源码合适位置引申出一个由子类负责的处理函数。
- - KawaiiPhysics实装：主要是工作流相关内容
-   - 源码级理解，有实操经验。知道KawaiiPhysics的能力边界。
-   - 对KawaiiPhysics每一个参数的实现和使用方法整理成了图文文档（顶部个人技术文档中有，但是部分图片涉及在研项目，已经移除），供美术使用。
-   - 提供了模板化PhysicSettings的配置方式。以Asset的形式保存常用PhysicSettings，Kawaii节点中通过选择Asset来初始化PhysicSettings。
+## **Work Experience**
+### **Nami** `2024.12 - now`
+ - Animation system refactoring: mainly for logical decoupling and standarizing the way of code implememtation. This is to make our system stable and extentable.
+   - Refactor the management of game animation state. Including parent-child states choosing and switching, state related gameplaytag managing, animation state collaborating with skills and movements.
+   - Game state driven locomotion animations(ground, jump, falling etc.) for different character actions. For example, adding special designed animations for a dash skill transferring to land or fall.
+ - Animation and movements:
+   - Spling running: customized movement mode, driven by spline data. Works well for high speed moving.
+   - Wall moving: limited requirements for world collisions
+     - Dynamic changed player inputs to world acceleration coordinates which takes wall info, camera direction and movement info into account.
+     - Allows character to move upside down, and smoothly moving along rough wall or moving across walls with sharp angle.
+     - Extra work for interpolating from mesh to rootcomponent.
+     - Collision adjustment in narrow space. Characters will never get stuck.
+ - Characterized jump actions: wall move jump, ground edge auto jump, wall edge auto jump. 
+   - Different jumps for each action and camera angle.
+   - Predicted jump location on ground edge jump as walking mode has a tollerance to move out of edge.
+   - Animation curve based jump movement control including speed control, gravity control.
+ - Refined Walk/Run/Sprint: stride, playrate, IK & VB. 
+   - Smooth transitions between walk-run-sprint and paired blend out skill montage transition animations.
+   - HandIK with virtual bone locks assistant hand to counter local space blend and additive.
+ - Modular character with one single animation instance: for chaging character skinned parts with part animations.
+   - Working as an indivisual plugin, functionalized as a combination of two actor components. It can be used for any actors.
+   - Character mesh is composed of several part meshes. Part mesh varies from the part skin player choosen. Two ways provided to compose these meshes:
+     - One way is using MergeMesh to merge all selected meshes into one and output all animation bones result to this. This asks for only one skeletalmesh component, but requires extra works for physics assets and morph targets.
+     - The other way is using LeaderPoseComponent, multiple part skeletalmesh components and a nude model as leader component. Output all animation bones result to nude model.
+     - Both ways ask for a shared skeleton for all participated meshed. And the most important, bind pose of part meshes should never change the bones location of main bodies.
+   - Only one animation instance is needed for either of the two ways above. One set of main body animations for all part combinations, including all the walk, run, jump animations and skill animations. Each part mesh should have their own animation set driving themselves only。
+   - Also, I slightly modified a bit of the engine code. Animation graph shuold only concentrate on the logic of main body animations, as part animations are automated paired by main body animation names. Part animation bone transforms will be sampled right at the time main body animation sampled, and only the bones part animations tracked will be merged.
+   - As for configurations, a structured directory hierachy is needed for this system. The hirerachy specifies each part by ids and their available skins by skin ids. Under the directory of each part skins, several kind of data assets we provided for configuring meshes, animations, effects, audios should be placed. The time a list of parts are asked with their ids and skin ids. These data will be automaticly loaded and maintained by my components.
+   - Apart from the asset configurations. I also added a special type of functional data asset called Chooser data asset. The mesh of a part can vary from the other part it connects, we use chooser data asset to config functions(customized class CDO) to choose the right mesh we wanted for different mesh combinations.
+ - UE4.27 upgraded to UE5.5.4：animation and movement。
+   - There is not much work about animations. The most important thing I need to do is figuring out all the engine code we have modified for the part of animation, and make a decision of what we should keep.
+   - Things are more complicated when it goes to movment. This is mainly because we have changed the engine code a lot, and also most other team workers have not used CMC in unreal way. For example, intentionally override PhysWalking and do not call its super, change the velocity and movmentmode whenever they want.
+     - For engine part: I removed most of the changes as they are designed for another project(Wuthering Waves).
+     - For project part: I refactored child function implementations. Things considered here are mostly like what is the right place a piece of out logic should be put. If it is the only selection, a child implemented function will be insert to the engine code.  
+ - KawaiiPhysics：
+   - Deep dive into the code implementation and did some configurations. Knowing about the capability bound of KawaiiPhysics.
+   - Provided a fairly details document to my team. Explanation for each params and video demos.
+   - Also, I provided a gismo for our artists. A way to save PhysicsSettings to template, for later initializing new KawaiiPhysics node.
 
-### **卡拉彼丘** `2020.4 - 2024.11`
+### **Strinova** `2020.4 - 2024.11`
 - 项目早期参与了卡拉彼丘早期技能系统的两次重构，一次武器系统的重构：
   - 早期部分角色的技能开发。
   - 对武器的实现细节十分熟悉。尤其是对动画、相机的支持和复杂的武器状态管理上面。
