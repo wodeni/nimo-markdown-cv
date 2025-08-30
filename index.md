@@ -102,15 +102,16 @@ pdf: true
    - Also, I provided a gismo for our artists. A way to save PhysicsSettings to template, for later initializing new KawaiiPhysics node.
 
 ### **Strinova** `2020.4 - 2024.11`
-- 项目早期参与了卡拉彼丘早期技能系统的两次重构，一次武器系统的重构：
-  - 早期部分角色的技能开发。
-  - 对武器的实现细节十分熟悉。尤其是对动画、相机的支持和复杂的武器状态管理上面。
-- 制定并且统一了卡拉彼丘局内所有玩法效果的管理方案： 涉及特效，材质，音效，UI，透视，团队色，贴花。
-  - 通过组件和对应的SubSystem提供不同层面的控制。
-  - 游戏逻辑和资源解耦，以及统一的资源配置方式，蓝图数据只用关心逻辑，逻辑开发时只用关心流程操控。不需要每次都额外关心资源的获取和配置。
-  - 支持不同皮肤的效果变化。
-  - 自我的生命周期管理，不依赖模型和材质的加载时机。
-  - 支持GC对玩法效果的控制。
+- Participated in game ability system framework refactoring two times, and weapon system in project early stage:
+  - The first time is focusing on the part of developing role skills with GAS case by case, and highly relies on the ability class hierachy we implemented.
+  - The second time my leader come out a new idea by factoring all the functions we need into components and extended ability configurations(function classes), along with gameplaytagged event systems and global delegate system for triggering. This time, I worked as an assistant to help him migrate all this existing skills to this new system. As a whole, He wrote the primary code of the framework, I developed old skills in this new way and kept improving the system.
+  - Work of the weapon system is similar to the development of skill system. But this time, at the very start, I parcitipated in only part of the system cause it is too complex. Character state machine, weapon state machine, gun designs, skills, animations, cameras, rpcs & replications. It took me about a year to fully understand all these stuffs.
+- A framework that helps manager the playing and stoping of all actors game effects: particle effects, materials, audios, screen UI, team occlusion and decals.
+  - This work is completely accomplished myself alone. The whole system is divided in to severel subsystems and along with an actor component to work with them.
+  - The first goal of this system is to seperate character logics from effect assets. So that we can change any of the effects if our character has a different skin. I heavily used gameplaytag to label all the character actions or events and states. Each tag can be mapped into an asset table, which contains all infos needed for playing this kind of asset. Changing asset tables is the only thing needed to change character effects.
+  - The second goal is to simplify the way of managering character effects for developers. No more need for them to care about which assets they are playing. Whether it's a particle, or an audio, or something else. Also, there is no need for them to cache all the infomations needed to stop them. All theses stuffs are handled by my component and systems. The only thing they have to do is firing their gameplaytag to start or end along with some controlling messages. 
+  - What is more, I inherited gameplay skill cue to fully integrated to this framework. So that gameplay skill effect can easily manage its instigator effects in this way.
+- 
 - 角色的重生系统：
   - 重生不销毁角色以及需要继续使用的所有actor。减少网络开销。数据初始流程组件化。
   - 细分重生阶段，每个阶段支持功能原子化配置化。通过配置不同的操控类可以动态修改重生流程（修改出生点、属性、技能、武器等）。
