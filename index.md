@@ -3,7 +3,7 @@ layout: cv
 title: hangyux
 pdf: true
 ---
-# 夏航宇
+# HangyuXia
 
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
@@ -11,7 +11,7 @@ pdf: true
 <i class="fi-telephone" style="margin-left:1em"></i>
   <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-  <a href="https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud" style="margin-left:0.5em">个人技术文档和练手Demo</a>
+  <a href="https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud" style="margin-left:0.5em">Personal documentations and practicing demo</a>
 </div>
 
 
