@@ -19,7 +19,7 @@ pdf: true
 ### **The University of Melbourne** `2017.2 - 2019.1 @Melbourne，Australia`
 - Master of Computer Science M.S.
   
-### **HuaZhong Agoricultureal University(211) ** `2012.9 - 2016.6 @Wuhan，China`
+### **HuaZhong Agoricultureal University(211)** `2012.9 - 2016.6 @Wuhan，China`
 - Computer Science And Technology B.Eng.
   
 ## **Work Experience**
