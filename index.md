@@ -111,27 +111,21 @@ pdf: true
   - The first goal of this system is to seperate character logics from effect assets. So that we can change any of the effects if our character has a different skin. I heavily used gameplaytag to label all the character actions or events and states. Each tag can be mapped into an asset table, which contains all infos needed for playing this kind of asset. Changing asset tables is the only thing needed to change character effects.
   - The second goal is to simplify the way of managering character effects for developers. No more need for them to care about which assets they are playing. Whether it's a particle, or an audio, or something else. Also, there is no need for them to cache all the infomations needed to stop them. All theses stuffs are handled by my component and systems. The only thing they have to do is firing their gameplaytag to start or end along with some controlling messages. 
   - What is more, I inherited gameplay skill cue to fully integrated to this framework. So that gameplay skill effect can easily manage its instigator effects in this way.
-- 
-- 角色的重生系统：
-  - 重生不销毁角色以及需要继续使用的所有actor。减少网络开销。数据初始流程组件化。
-  - 细分重生阶段，每个阶段支持功能原子化配置化。通过配置不同的操控类可以动态修改重生流程（修改出生点、属性、技能、武器等）。
-  - 支持可选的分帧重生。严格管理RestartPlayer的调用，统一复活时机的管理。
-- 长按切换操作的管理系统：侧身、飘飞、开火、肩射开镜等操作需要根据当前的角色状态、武器状态、技能状态等进行合理的恢复和打断。
-  - 一套底层代码，同时支持PC和MB的不同操作行为。
-  - 支持同个操作同时具备多个按键、多个切换模式。
-  - 同时涉及到角色，武器，技能，按键控制。极其复杂的事件处理和规划。
-  - 具备动态调整的灵活性，不会因为经常性小范围的调整导致整个底层代码的不兼容。
-- 玩法模式的配置化：
-  - 玩法重要部件完全放弃继承。仅使用最基础的父类。功能90%以上由组件和功能类组合的方式实现。
-  - 事件监听组件：监听事件的发生，或者标签的添加和移除。执行对应的功能类。
-  - 状态组件：简化的同步状态机。状态变化执行对应的功能类。
-  - 等级经验组件、计时组件。类似UE5的GameEvent系统，大量使用GameplayTag对控制和具体的逻辑进行解耦。
-  - 使用同步数据和TimeStamp保证关键流程的一致性。
-- 负责项目局内的角色动画：
-  - 对项目的角色、武器、召唤物的的动画设计和动画计算以及一些优化比较清楚。
-  - 对动画在Gameplay框架下的处理方式非常清楚。
-  - 对相机的更新流程，数据处理比较清楚。
-  - 清楚动画的计算流程，大部分AnimNode的实现细节。
+- General hold/switch input system for character actions: actions like firing, aiming, ads, flying in paper state, sideways in paper state can be triggered or cannelled by toggling or holding/release keys. If their key is holded, they can by interrupted by other actions temporarily, but will automatically recovered later on.
+  - Heavility relies on the usage of gameplay tag and GAS gameplaye events and game abilities.
+  - The whole system is divided into two parts.
+    - Raw input: Keeps tracking the anticipated actions of our player, specifically the keyboard input orders and input types(switch type, hold type, weak hold type, etc.). In this part we trigger or cancel skills to toggle character actions.
+    - Skills: Character actions are directly controlled by skills. This is where they are finally triggered, interrupted and recoverred.
+- Configuration based gameplay rules developing:
+  - All gameplay rules are controlled by well-designed components for game mode, game state, player controller, player state.
+  - Similar to MVC model. Data and controlling are seperated from each other. 
+  - The keypoint of this system is to design reasonable minimized controllers. They should be easy to reuse and flexible to be composed with each other.
+- Responsible for character, weapon, minion animation developing(start from 2024):
+  - ALS based character animation system. This is first implemented by my leader, and improved by me and my other colleague later on. Start from 2024, I was the only one responsible for this whole system.
+  - Designed the way of building meleee attacking system including weapons and animations. Support different kind of attacking Weapons like Katana and tails(logically weapon).
+  - New way of managing montage slot anim graph logic. A layer before blendlayer to handle montages instead of slot for each indivisual part during overlay blending. ALS way of handling montages has no space for stance differences.
+  - Also, I have made a lot of effects to achieve smooth animation transitions, frame skipped motion specially. 
+  - Animation system for weapons and minions. Much simpler than characters, less states, less animation asssets, no IK needed, no split for upperbody and lowerbody . 
 
 <!-- ### Footer
 
