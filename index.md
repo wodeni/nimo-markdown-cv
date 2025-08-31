@@ -75,8 +75,7 @@ pdf: true
      - Extra work for interpolating from mesh to rootcomponent.
      - Collision adjustment in narrow space. Characters will never get stuck.
  - Characterized jump actions: Wall move jump, ground edge auto jump, wall edge auto jump. 
-   - Different jumps for each action and camera angle.
-   - Predicted jump location on ground edge jump as walking mode has a tollerance to move out of edge.
+   - Different jump animations for each action and camera angle.
    - Animation curve based jump movement control including speed control, gravity control.
  - Refined Walk/Run/Sprint: Stride, playrate, IK & VB. 
    - Smooth transitions between walk-run-sprint and paired blend out skill montage transition animations.
@@ -102,13 +101,13 @@ pdf: true
    - Also, I provided a gismo for our artists. A way to save PhysicsSettings to template, for later initializing new KawaiiPhysics node.
 
 ### **Strinova** `2020.4 - 2024.11`
-- Participated in game ability system framework refactoring two times, and weapon system in project early stage:
+- Participated in the refacor of our ability system(two times), and weapon system:
   - The first time is focusing on the part of developing role skills with GAS case by case, and highly relies on the ability class hierachy we implemented.
   - The second time my leader come out a new idea by factoring all the functions we need into components and extended ability configurations(function classes), along with gameplaytagged event systems and global delegate system for triggering. This time, I worked as an assistant to help him migrate all this existing skills to this new system. As a whole, He wrote the primary code of the framework, I developed old skills in this new way and kept improving the system.
   - Work of the weapon system is similar to the development of skill system. But this time, at the very start, I parcitipated in only part of the system cause it is too complex. Character state machine, weapon state machine, gun designs, skills, animations, cameras, rpcs & replications. It took me about a year to fully understand all these stuffs.
 - A framework that helps manager the playing and stoping of all actors game effects: Particle effects, materials, audios, screen UI, team occlusion and decals.
-  - This work is completely accomplished myself alone. The whole system is divided in to severel subsystems and along with an actor component to work with them.
-  - The first goal of this system is to seperate character logics from effect assets. So that we can change any of the effects if our character has a different skin. I heavily used gameplaytag to label all the character actions or events and states. Each tag can be mapped into an asset table, which contains all infos needed for playing this kind of asset. Changing asset tables is the only thing needed to change character effects.
+  - The whole system is divided in to severel subsystems along with an actor component to work with them.
+  - The first goal of this system is to seperate character logics from effect assets, so that we can change any of the effects if our character has a different skin. I heavily used gameplaytag to label all the character actions or events and states. Each tag can be mapped into an asset table, which contains all infos needed for playing this kind of asset. Changing asset tables is the only thing needed to change character effects.
   - The second goal is to simplify the way of managering character effects for developers. No more need for them to care about which assets they are playing. Whether it's a particle, or an audio, or something else. Also, there is no need for them to cache all the infomations needed to stop them. All theses stuffs are handled by my component and systems. The only thing they have to do is firing their gameplaytag to start or end along with some controlling messages. 
   - What is more, I inherited gameplay skill cue to fully integrated to this framework. So that gameplay skill effect can easily manage its instigator effects in this way.
 - General hold/switch input system for character actions: Actions like firing, aiming, ads, flying in paper state, sideways in paper state can be triggered or cannelled by toggling or holding/release keys. If their key is holded, they can by interrupted by other actions temporarily, but will automatically recovered later on.
