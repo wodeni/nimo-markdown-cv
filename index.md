@@ -213,9 +213,10 @@ John Montgomery Scholarship `Dickinson, 2013` <br>
 
 ## Service
 
+Reviewer and Mentor `PLATEAU 2026` <br>
 S3D Department head search committee `CMU, 2024` <br>
 Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22, UIST'23, CHI'24` <br>
+Reviewer `CHI'21, CHI'22, SIGGRAPH'22, UIST'23, CHI'24, SIGGRAPH'25, DIS'26` <br>
 Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2023` <br>
 
 <!-- ### Footer
