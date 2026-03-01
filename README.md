@@ -5,47 +5,75 @@ nimo-markdown-cv
 <img src="assets/README-63bf9.png" width="700">
 </p>
 
-A curriculum vitae template that lets you write your cv in Markdown and supports both HTML and PDF output formats. To generate the cv, we use [Jekyll](https://jekyllrb.com/).
-
-The project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) and the usage is essentially the same. We only provide an alternative styling theme.
-
-See Live example of this template [here](http://wodenimoni.com/nimo-markdown-cv/).
-
-***
+A curriculum vitae template that lets you write your CV in Markdown and export to HTML/PDF.
 
 ## Getting started
 
-To start, simply [fork the nimo-markdown-cv repo](https://github.com/wodeni/nimo-markdown-cv)
+1. Install Node.js 18+.
+2. Install dependencies:
 
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+   ```bash
+   pnpm install
+   ```
 
-Your resume content will be contained in `index.md`, which has an example cv. Start by modifying `index.md`! To see the result, you have two options:
+3. Start dev server:
 
-## Using Github Pages to publish it online
+   ```bash
+   pnpm dev
+   ```
 
-1. Go to *Settings* of you git repo. ![](assets/README-5d16f.png)
-2. In the *Github Pages* section, choose *master branch*, which will automatically build your cv and serve it on your free GitHub Pages website. ![](assets/README-0669e.png)
-3. Head to *yourusername*.github.io/nimo-markdown-cv to see your beautiful CV.
+4. Open the printed-style CV preview (default): `http://localhost:5173`.
 
-Any change you want to make to your CV from then on would have to be done on the `master` branch and will be immediately rendered by Github Pages.
+## Development
 
-## Build it locally and print a PDF
+This repo works with `pnpm`, `npm`, or `yarn`. CI uses `pnpm` and the committed `pnpm-lock.yaml`, so `pnpm` is the recommended default.
 
-1. [install jekyll](https://jekyllrb.com/docs/installation/) on your computer. `gem install jekyll` will do for most users.
-2. Clone your fork on your computer
-3. Type `jekyll serve` and you'll be able to see your CV on your local host (the default address is http://localhost:4000).
-4. You can edit the `index.md` file and see changes live in your browser.
-5. To print a PDF, just press *Print*. Print and web CSS media queries should take care of the styling.
+Common command equivalents:
 
-## Build it locally by docker
+```bash
+# install
+pnpm install
+npm install
+yarn install
 
-1. Clone your fork on your computer
-2. Type `make build` to set up service
-3. Type `make` or `make start`  to start service, then your can open `localhost:4000` on your local host to see your CV
-4. You can edit the `index.md` file and see changes live in your browser.
-5. Since the `jekyll-pdf` does not work well with this repo, try using Chrome's print feature, just right-click in your browser and click *print* tag
+# dev server
+pnpm dev
+npm run dev
+yarn dev
 
-## Generating PDFs in one command
+# production build
+pnpm build
+npm run build
+yarn build
 
-You can optionally integrate [jekyll-pdf](https://github.com/abeMedia/jekyll-pdf) to the package and automatically generate the PDF along with the HTML version. See more instructions in the [repo](https://github.com/abeMedia/jekyll-pdf). As of 02/07/2019, `jekyll-pdf` does not work well with this repo.
+# local preview
+pnpm preview
+npm run preview
+yarn preview
+```
 
+
+## Content source
+
+- Edit your resume in `index.md`.
+- Contact items are rendered directly from frontmatter metadata.
+
+Supported contact fields:
+
+```yaml
+title: Your Name
+homepage:
+  url: https://example.com
+  text: example.com
+email:
+  url: mailto:you@example.com
+  text: you@example.com
+phone: +1 (555) 555-5555
+```
+
+Use any subset of `homepage`, `email`, and `phone`; only provided fields are shown.
+
+## PDF output
+
+Use your browser print flow from the rendered page (`Cmd/Ctrl + P`).
+Screen/print styles are served from `public/media/`.

@@ -132,11 +132,11 @@ table {
 
 body {
   font: normal normal 400;
-  font-size: 120%;
+  font-size: 11pt;
   line-height: 1.5em;
   /*also written as...  font: normal normal 400 100%/1.5em;*/
   font-family: "Helvetica", sans-serif;
-  margin: 0.5in 0.5in 0.5in 0.5in;
+  /* margin: 0.5in 0.5in 0.5in 0.5in */
   /* margin-top: 1em;
 	margin-left: 1em; */
 }
@@ -156,8 +156,7 @@ em {
 h1 {
   font-family: "Avenir Next", sans-serif;
   text-align: center;
-  /* font-size: 50pt; */
-  font-size: 600%;
+  font-size: 50pt;
   font-weight: lighter;
   position: relative;
   line-height: 1.2em;
@@ -173,8 +172,7 @@ h1 strong {
 /* Section headers */
 h2 {
   font-family: "Avenir Next", sans-serif;
-  /* font-size: 20pt; */
-  font-size: 200%;
+  font-size: 20pt;
   text-align: center;
   font-weight: normal;
   display: flex;
@@ -224,11 +222,37 @@ li {
   font-weight: lighter;
   color: #ccc;
   /* font-family: Menlo,monospace,sans-serif; */
-  font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  row-gap: 0.2em;
+}
+
+#contact-info .contact-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
 }
 
 #contact-info a {
   text-decoration: none;
+}
+
+@media print {
+  p {
+    page-break-inside: avoid;
+  }
+  h2 {
+    page-break-after: avoid;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+  .pub-links {
+    display: none;
+  }
 }
 
 a {
@@ -236,7 +260,11 @@ a {
   color: rgb(20, 116, 151);
 }
 
-hr {
-  visibility: hidden;
-  height: 0mm;
+@media print {
+  hr {
+    page-break-after: always; /* CSS 2 */
+    /* minimal layout disruption: */
+    height: 0.1mm;
+    visibility: hidden;
+  }
 }

@@ -132,11 +132,11 @@ table {
 
 body {
   font: normal normal 400;
-  font-size: 11pt;
+  font-size: 120%;
   line-height: 1.5em;
   /*also written as...  font: normal normal 400 100%/1.5em;*/
   font-family: "Helvetica", sans-serif;
-  /* margin: 0.5in 0.5in 0.5in 0.5in */
+  margin: 0.5in 0.5in 0.5in 0.5in;
   /* margin-top: 1em;
 	margin-left: 1em; */
 }
@@ -156,7 +156,8 @@ em {
 h1 {
   font-family: "Avenir Next", sans-serif;
   text-align: center;
-  font-size: 50pt;
+  /* font-size: 50pt; */
+  font-size: 600%;
   font-weight: lighter;
   position: relative;
   line-height: 1.2em;
@@ -172,7 +173,8 @@ h1 strong {
 /* Section headers */
 h2 {
   font-family: "Avenir Next", sans-serif;
-  font-size: 20pt;
+  /* font-size: 20pt; */
+  font-size: 200%;
   text-align: center;
   font-weight: normal;
   display: flex;
@@ -200,7 +202,16 @@ h3 {
 code {
   font-family: "Palatino";
   font-style: italic;
+}
+
+h3 > code {
   float: right;
+}
+
+@media screen and (min-width: 701px) {
+  li > code {
+    float: right;
+  }
 }
 
 li:before {
@@ -222,22 +233,32 @@ li {
   font-weight: lighter;
   color: #ccc;
   /* font-family: Menlo,monospace,sans-serif; */
+  font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  row-gap: 0.2em;
+}
+
+#contact-info .contact-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
 }
 
 #contact-info a {
   text-decoration: none;
 }
 
-@media print {
-  p {
-    page-break-inside: avoid;
-  }
-  h2 {
-    page-break-after: avoid;
-  }
-  h3 {
-    page-break-after: avoid;
-  }
+.pub-links a {
+  white-space: nowrap;
+  margin-right: 0.6em;
+}
+
+.pub-links a i {
+  margin-right: 0.2em;
 }
 
 a {
@@ -245,11 +266,37 @@ a {
   color: rgb(20, 116, 151);
 }
 
-@media print {
-  hr {
-    page-break-after: always; /* CSS 2 */
-    /* minimal layout disruption: */
-    height: 0.1mm;
-    visibility: hidden;
+hr {
+  visibility: hidden;
+  height: 0mm;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 100%;
+    margin: 0.2in 0.16in;
+    line-height: 1.45em;
+  }
+
+  h1 {
+    font-size: 340%;
+    line-height: 1.1em;
+  }
+
+  h2 {
+    font-size: 150%;
+    margin-top: 0.85em;
+    margin-bottom: 0.6em;
+  }
+
+  h2:after {
+    border-bottom: 1px dashed #d3d3d3;
+    margin-left: 8px;
+  }
+
+  h3 > code {
+    float: none;
+    display: block;
+    margin-top: 0.1em;
   }
 }
