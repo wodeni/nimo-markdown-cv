@@ -250,6 +250,9 @@ li {
   h3 {
     page-break-after: avoid;
   }
+  .pub-links {
+    display: none;
+  }
 }
 
 a {

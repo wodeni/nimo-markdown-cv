@@ -252,6 +252,15 @@ li {
   text-decoration: none;
 }
 
+.pub-links a {
+  white-space: nowrap;
+  margin-right: 0.6em;
+}
+
+.pub-links a i {
+  margin-right: 0.2em;
+}
+
 a {
   text-decoration: none;
   color: rgb(20, 116, 151);

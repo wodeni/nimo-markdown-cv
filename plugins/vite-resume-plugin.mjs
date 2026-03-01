@@ -80,12 +80,112 @@ function injectContactInfo(html, frontmatter) {
   return `${html.slice(0, insertionPoint)}\n${contactHtml}${html.slice(insertionPoint)}`;
 }
 
+function getNodeText(node) {
+  if (!node) return "";
+  if (node.type === "text") return node.value || "";
+  if (!Array.isArray(node.children)) return "";
+  return node.children.map(getNodeText).join("");
+}
+
+function isWhitespaceTextNode(node) {
+  return node.type === "text" && /^\s*$/.test(node.value || "");
+}
+
+function isPublicationLinksParagraph(node) {
+  if (node.type !== "element" || node.tagName !== "p" || !Array.isArray(node.children)) {
+    return false;
+  }
+
+  const significantChildren = node.children.filter((child) => !isWhitespaceTextNode(child));
+  if (significantChildren.length === 0) return false;
+
+  return significantChildren.every(
+    (child) => child.type === "element" && child.tagName === "a"
+  );
+}
+
+function iconClassForPublicationLink(label) {
+  const normalized = label.trim().toLowerCase();
+  if (normalized === "pdf") return "fas fa-file-pdf";
+  if (normalized === "bibtex") return "fas fa-book";
+  if (normalized === "video preview") return "fas fa-video";
+  if (normalized === "talk") return "fas fa-microphone";
+  if (normalized === "slides") return "fas fa-desktop";
+  if (normalized === "www") return "fas fa-globe";
+  if (normalized === "repo") return "fab fa-github";
+  return "fas fa-link";
+}
+
+function prependIconToPublicationLink(anchorNode) {
+  if (!Array.isArray(anchorNode.children)) return;
+
+  const firstNonWhitespace = anchorNode.children.find(
+    (child) => !(child.type === "text" && /^\s*$/.test(child.value || ""))
+  );
+  if (
+    firstNonWhitespace &&
+    firstNonWhitespace.type === "element" &&
+    firstNonWhitespace.tagName === "i"
+  ) {
+    return;
+  }
+
+  const label = getNodeText(anchorNode);
+  const iconClass = iconClassForPublicationLink(label);
+  anchorNode.children = [
+    {
+      type: "element",
+      tagName: "i",
+      properties: { className: iconClass.split(" "), "aria-hidden": "true" },
+      children: [],
+    },
+    { type: "text", value: " " },
+    ...anchorNode.children,
+  ];
+}
+
+function markPublicationLinks() {
+  return (tree) => {
+    if (!Array.isArray(tree.children)) return;
+
+    let inPublications = false;
+    for (const node of tree.children) {
+      if (node.type === "element" && node.tagName === "h2") {
+        const headingText = getNodeText(node).trim().toLowerCase();
+        if (headingText === "publications") {
+          inPublications = true;
+        } else if (inPublications) {
+          inPublications = false;
+        }
+      }
+
+      if (!inPublications) continue;
+      if (!isPublicationLinksParagraph(node)) continue;
+
+      node.properties = node.properties || {};
+      const existing = node.properties.className || [];
+      const classNames = Array.isArray(existing) ? existing : [existing];
+      if (!classNames.includes("pub-links")) {
+        classNames.push("pub-links");
+      }
+      node.properties.className = classNames;
+
+      for (const child of node.children) {
+        if (child.type === "element" && child.tagName === "a") {
+          prependIconToPublicationLink(child);
+        }
+      }
+    }
+  };
+}
+
 async function markdownToHtml(markdown) {
   const file = await unified()
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
+    .use(markPublicationLinks)
     .use(rehypeStringify, { allowDangerousHtml: true })
     .process(markdown);
 
