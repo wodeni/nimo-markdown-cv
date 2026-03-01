@@ -7,13 +7,7 @@ nimo-markdown-cv
 
 A curriculum vitae template that lets you write your CV in Markdown and export to HTML/PDF.
 
-This project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) with an alternative style theme.
-
-## Stage 1 build system (Vite)
-
-The local build workflow now runs on [Vite](https://vite.dev/) and no longer requires Jekyll for local development.
-
-### Local development
+## Getting started
 
 1. Install Node.js 18+.
 2. Install dependencies:
@@ -30,27 +24,56 @@ The local build workflow now runs on [Vite](https://vite.dev/) and no longer req
 
 4. Open the printed-style CV preview (default): `http://localhost:5173`.
 
-### Production build
+## Development
+
+This repo works with `pnpm`, `npm`, or `yarn`. CI uses `pnpm` and the committed `pnpm-lock.yaml`, so `pnpm` is the recommended default.
+
+Common command equivalents:
 
 ```bash
+# install
+pnpm install
+npm install
+yarn install
+
+# dev server
+pnpm dev
+npm run dev
+yarn dev
+
+# production build
 pnpm build
+npm run build
+yarn build
+
+# local preview
 pnpm preview
+npm run preview
+yarn preview
 ```
+
 
 ## Content source
 
 - Edit your resume in `index.md`.
-- Frontmatter is still supported.
-- Current Markdown rendering includes compatibility for existing Liquid patterns used in this repo:
-  - `{% include cv-contact.html %}`
-  - `{{ page.homepage.url }}` and similar `{{ page.* }}` lookups
+- Contact items are rendered directly from frontmatter metadata.
+
+Supported contact fields:
+
+```yaml
+title: Your Name
+homepage:
+  url: https://example.com
+  text: example.com
+email:
+  url: mailto:you@example.com
+  text: you@example.com
+phone: +1 (555) 555-5555
+```
+
+Use any subset of `homepage`, `email`, and `phone`; only provided fields are shown.
 
 ## PDF output
 
 Use your browser print flow from the rendered page (`Cmd/Ctrl + P`).
 Screen/print styles are served from `public/media/`.
-
-## GitHub Pages deployment
-
-GitHub Actions now builds and deploys the Vite output (`dist/`) to Pages on pushes to `master`.
-Workflow file: `.github/workflows/pages.yml`.
