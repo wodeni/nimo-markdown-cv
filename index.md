@@ -10,13 +10,6 @@ homepage:
 
 # Wode **Ni**
 
-<div id="contact-info">
-    <i class="fa-solid fa-house" style="margin-left:1em"></i>
-    <a href="https://wodenimoni.com" style="margin-left:0.5em"> wodenimoni.com</a>
-    <i class="fa-regular fa-envelope" style="margin-left:1em"></i>
-    <a href="mailto:wode.nimo.ni@gmail.com" style="margin-left:0.5em">wode.nimo.ni@gmail.com</a>
-</div>
-
 ## Education
 
 ### **Carnegie Mellon University** `2018.9 - 2024.10`

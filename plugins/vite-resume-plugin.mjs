@@ -21,31 +21,27 @@ function getPathValue(obj, dottedPath) {
 }
 
 function renderContactInfo(frontmatter) {
-  const chunks = ["<div id=\"contact-info\">"];
+  const entries = [];
 
   if (frontmatter.homepage) {
-    chunks.push("    <i class=\"fa-solid fa-house\" style=\"margin-left:1em\"></i>");
-    chunks.push(
-      `    <a href=\"${frontmatter.homepage.url}\" style=\"margin-left:0.5em\"> ${frontmatter.homepage.text}</a>`
+    entries.push(
+      `<span class="contact-entry"><i class="fas fa-home"></i><a href="${frontmatter.homepage.url}">${frontmatter.homepage.text}</a></span>`
     );
   }
 
   if (frontmatter.email) {
-    chunks.push("    <i class=\"fa-regular fa-envelope\" style=\"margin-left:1em\"></i>");
-    chunks.push(
-      `    <a href=\"${frontmatter.email.url}\" style=\"margin-left:0.5em\">${frontmatter.email.text}</a>`
+    entries.push(
+      `<span class="contact-entry"><i class="far fa-envelope"></i><a href="${frontmatter.email.url}">${frontmatter.email.text}</a></span>`
     );
   }
 
   if (frontmatter.phone) {
-    chunks.push(
-      "    <i class=\"fa-solid fa-phone\" style=\"margin-left:1em\"></i>"
+    entries.push(
+      `<span class="contact-entry"><i class="fas fa-phone"></i><span>${frontmatter.phone}</span></span>`
     );
-    chunks.push(`    ${frontmatter.phone}`);
   }
 
-  chunks.push("</div>");
-  return chunks.join("\n");
+  return `<div id="contact-info">\n  ${entries.join("\n  ")}\n</div>`;
 }
 
 function renderLiquidCompat(markdown, frontmatter) {
@@ -58,6 +54,30 @@ function renderLiquidCompat(markdown, frontmatter) {
     const value = getPathValue(frontmatter, keyPath);
     return value == null ? "" : String(value);
   });
+}
+
+function injectContactInfo(html, frontmatter) {
+  if (html.includes('id="contact-info"')) {
+    return html;
+  }
+
+  const contactHtml = renderContactInfo(frontmatter);
+  const hasContactData =
+    Boolean(frontmatter.homepage) ||
+    Boolean(frontmatter.email) ||
+    Boolean(frontmatter.phone);
+  if (!hasContactData) {
+    return html;
+  }
+
+  const h1CloseTag = "</h1>";
+  const h1Index = html.indexOf(h1CloseTag);
+  if (h1Index === -1) {
+    return `${contactHtml}\n${html}`;
+  }
+
+  const insertionPoint = h1Index + h1CloseTag.length;
+  return `${html.slice(0, insertionPoint)}\n${contactHtml}${html.slice(insertionPoint)}`;
 }
 
 async function markdownToHtml(markdown) {
@@ -81,7 +101,7 @@ export default function resumePlugin({ markdownFile = "index.md" } = {}) {
     const { data, content } = matter(source);
 
     const hydratedMarkdown = renderLiquidCompat(content, data);
-    const html = await markdownToHtml(hydratedMarkdown);
+    const html = injectContactInfo(await markdownToHtml(hydratedMarkdown), data);
     const title = data.title ? `${data.title} | CV` : "CV";
 
     return `export default ${JSON.stringify({ title, html, frontmatter: data })};`;

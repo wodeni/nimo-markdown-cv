@@ -208,6 +208,12 @@ h3 > code {
   float: right;
 }
 
+@media screen and (min-width: 701px) {
+  li > code {
+    float: right;
+  }
+}
+
 li:before {
   content: "-";
   position: relative;
@@ -228,6 +234,18 @@ li {
   color: #ccc;
   /* font-family: Menlo,monospace,sans-serif; */
   font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  row-gap: 0.2em;
+}
+
+#contact-info .contact-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
 }
 
 #contact-info a {
