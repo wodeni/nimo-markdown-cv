@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stage 1 parity keeps the existing media/*.css look and layout. */
