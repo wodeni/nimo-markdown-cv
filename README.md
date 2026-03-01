@@ -48,8 +48,9 @@ pnpm preview
 ## PDF output
 
 Use your browser print flow from the rendered page (`Cmd/Ctrl + P`).
-The screen/print styles remain in `media/` and are served from `public/media/` for parity during migration.
+Screen/print styles are served from `public/media/`.
 
-## Legacy Jekyll files
+## GitHub Pages deployment
 
-Jekyll files (`Gemfile`, `_layouts`, `_includes`, `_config.yml`, Docker setup) are intentionally kept for now during the migration.
+GitHub Actions now builds and deploys the Vite output (`dist/`) to Pages on pushes to `master`.
+Workflow file: `.github/workflows/pages.yml`.
