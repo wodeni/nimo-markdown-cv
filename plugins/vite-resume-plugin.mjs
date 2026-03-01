@@ -24,14 +24,14 @@ function renderContactInfo(frontmatter) {
   const chunks = ["<div id=\"contact-info\">"];
 
   if (frontmatter.homepage) {
-    chunks.push("    <i class=\"fi-home\" style=\"margin-left:1em\"></i>");
+    chunks.push("    <i class=\"fa-solid fa-house\" style=\"margin-left:1em\"></i>");
     chunks.push(
       `    <a href=\"${frontmatter.homepage.url}\" style=\"margin-left:0.5em\"> ${frontmatter.homepage.text}</a>`
     );
   }
 
   if (frontmatter.email) {
-    chunks.push("    <i class=\"fi-mail\" style=\"margin-left:1em\"></i>");
+    chunks.push("    <i class=\"fa-regular fa-envelope\" style=\"margin-left:1em\"></i>");
     chunks.push(
       `    <a href=\"${frontmatter.email.url}\" style=\"margin-left:0.5em\">${frontmatter.email.text}</a>`
     );
@@ -39,7 +39,7 @@ function renderContactInfo(frontmatter) {
 
   if (frontmatter.phone) {
     chunks.push(
-      "    <i class=\"fi-telephone\" style=\"margin-left:1em\"></i>"
+      "    <i class=\"fa-solid fa-phone\" style=\"margin-left:1em\"></i>"
     );
     chunks.push(`    ${frontmatter.phone}`);
   }
