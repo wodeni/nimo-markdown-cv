@@ -163,7 +163,8 @@ h1 {
   min-height: 13rem;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3.5rem;
+  padding-top: 2rem;
   page-break-inside: avoid;
 }
 
@@ -171,7 +172,6 @@ h1 {
   display: block;
   width: 11rem;
   height: 11rem;
-  margin-top: 2rem;
 }
 
 .hero-wordmark-text {
@@ -324,20 +324,19 @@ li {
 }
 
 #contact-info {
-  margin-top: 2rem;
+  margin-bottom: 0;
   color: #71717a;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.25em;
+  gap: 0.05em;
   font-weight: 300;
+  line-height: 1.25;
   text-align: right;
 }
 
 #contact-info .contact-entry {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
+  display: block;
 }
 
 .site-icon {
@@ -347,12 +346,6 @@ li {
   flex: 0 0 auto;
   overflow: visible;
   vertical-align: -0.125em;
-}
-
-#contact-info .site-icon {
-  width: 1.15em;
-  height: 1.15em;
-  color: #999;
 }
 
 #contact-info a {

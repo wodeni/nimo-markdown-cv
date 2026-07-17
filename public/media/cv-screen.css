@@ -167,28 +167,28 @@ h1 {
 
 #resume-header {
   display: flex;
-  min-height: 13rem;
-  align-items: flex-start;
+  min-height: 16.5rem;
+  align-items: flex-end;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3.5rem;
+  padding-top: 2rem;
 }
 
 .hero-wordmark {
   display: block;
-  width: 11rem;
-  height: 11rem;
-  margin-top: 2rem;
+  width: 14.5rem;
+  height: 14.5rem;
 }
 
 .hero-wordmark-text {
   display: flex;
   width: max-content;
-  min-width: 11rem;
+  min-width: 14.5rem;
   height: auto;
-  min-height: 11rem;
+  min-height: 14.5rem;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
-  font-size: calc(3.12rem * var(--hero-scale, 1));
+  font-size: calc(4.1rem * var(--hero-scale, 1));
   font-weight: 800;
   letter-spacing: -0.065em;
   line-height: 0.99;
@@ -341,21 +341,20 @@ li {
 }
 
 #contact-info {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   color: #71717a;
   font-size: 80%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.25em;
+  gap: 0.05em;
   font-weight: 300;
+  line-height: 1.25;
   text-align: right;
 }
 
 #contact-info .contact-entry {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
+  display: block;
 }
 
 .site-icon {
@@ -365,12 +364,6 @@ li {
   flex: 0 0 auto;
   overflow: visible;
   vertical-align: -0.125em;
-}
-
-#contact-info .site-icon {
-  width: 1.15em;
-  height: 1.15em;
-  color: #999;
 }
 
 #contact-info a {
@@ -429,27 +422,29 @@ hr {
   #resume-header {
     min-height: auto;
     flex-direction: column;
-    gap: 0.75rem;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding-top: 1.5rem;
   }
 
   .hero-wordmark {
-    width: 8.25rem;
-    height: 8.25rem;
-    margin-top: 1.5rem;
+    width: 10.5rem;
+    height: 10.5rem;
   }
 
   .hero-wordmark-text {
     width: max-content;
-    min-width: 8.25rem;
+    min-width: 10.5rem;
     height: auto;
-    min-height: 8.25rem;
-    font-size: calc(2.35rem * var(--hero-scale, 1));
+    min-height: 10.5rem;
+    font-size: calc(3rem * var(--hero-scale, 1));
   }
 
   #contact-info {
-    margin-top: 0;
-    align-items: flex-start;
-    text-align: left;
+    margin-bottom: 0;
+    align-self: flex-end;
+    align-items: flex-end;
+    text-align: right;
   }
 
   h2 {

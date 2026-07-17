@@ -25,19 +25,19 @@ function renderContactInfo(frontmatter) {
 
   if (frontmatter.homepage) {
     entries.push(
-      `<span class="contact-entry"><i class="fas fa-home"></i><a href="${frontmatter.homepage.url}">${frontmatter.homepage.text}</a></span>`
+      `<span class="contact-entry"><a href="${frontmatter.homepage.url}">${frontmatter.homepage.text}</a></span>`
     );
   }
 
   if (frontmatter.email) {
     entries.push(
-      `<span class="contact-entry"><i class="far fa-envelope"></i><a href="${frontmatter.email.url}">${frontmatter.email.text}</a></span>`
+      `<span class="contact-entry"><a href="${frontmatter.email.url}">${frontmatter.email.text}</a></span>`
     );
   }
 
   if (frontmatter.phone) {
     entries.push(
-      `<span class="contact-entry"><i class="fas fa-phone"></i><span>${frontmatter.phone}</span></span>`
+      `<span class="contact-entry"><span>${frontmatter.phone}</span></span>`
     );
   }
 
