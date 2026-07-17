@@ -180,6 +180,32 @@ h1 {
   margin-top: 2rem;
 }
 
+.hero-wordmark-text {
+  display: flex;
+  width: max-content;
+  min-width: 11rem;
+  height: auto;
+  min-height: 11rem;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(3.12rem * var(--hero-scale, 1));
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.hero-wordmark-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-wordmark-accent {
+  color: #c559f4;
+  letter-spacing: -0.08em;
+}
+
 /* Section headers */
 h2 {
   position: relative;
@@ -410,6 +436,14 @@ hr {
     width: 8.25rem;
     height: 8.25rem;
     margin-top: 1.5rem;
+  }
+
+  .hero-wordmark-text {
+    width: max-content;
+    min-width: 8.25rem;
+    height: auto;
+    min-height: 8.25rem;
+    font-size: calc(2.35rem * var(--hero-scale, 1));
   }
 
   #contact-info {

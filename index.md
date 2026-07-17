@@ -1,5 +1,7 @@
 ---
 title: Wode "Nimo" Ni
+hero:
+  image: media/name-hero.svg
 email:
   url: mailto:wode.nimo.ni@gmail.com
   text: wode.nimo.ni@gmail.com

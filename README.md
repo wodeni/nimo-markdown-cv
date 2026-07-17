@@ -62,6 +62,8 @@ Supported contact fields:
 
 ```yaml
 title: Your Name
+hero:
+  image: media/your-wordmark.svg
 homepage:
   url: https://example.com
   text: example.com
@@ -72,6 +74,12 @@ phone: +1 (555) 555-5555
 ```
 
 Use any subset of `homepage`, `email`, and `phone`; only provided fields are shown.
+
+The `hero.image` field is optional. It accepts a path relative to the site root or
+an absolute URL. When it is omitted—or when the image cannot load—the title is
+rendered as a stacked text wordmark using the same black and purple styling.
+Quoted nicknames such as `Alex "Lex" Smith` are automatically used as the purple
+accent line.
 
 ## PDF output
 

@@ -137,16 +137,63 @@ const heading = content.querySelector("h1");
 const contactInfo = content.querySelector("#contact-info");
 
 if (heading) {
+  const title = resume.frontmatter.title || heading.textContent.trim();
   heading.classList.add("hero-heading");
-  heading.setAttribute("aria-label", resume.frontmatter.title || heading.textContent.trim());
-  heading.innerHTML = `
-    <img
-      class="hero-wordmark"
-      src="${import.meta.env.BASE_URL}media/name-hero.svg"
-      alt=""
-      aria-hidden="true"
-    />
-  `;
+  heading.setAttribute("aria-label", title);
+
+  const renderTextWordmark = () => {
+    const wordmark = document.createElement("span");
+    wordmark.className = "hero-wordmark hero-wordmark-text";
+    wordmark.setAttribute("aria-hidden", "true");
+
+    const nickname = title.match(/^(.*?)\s*["“]([^"”]+)["”]\s*(.*?)$/);
+    let lines;
+    let accentIndex;
+
+    if (nickname) {
+      lines = [nickname[1], `“${nickname[2]}”`, nickname[3]].filter(Boolean);
+      accentIndex = lines.length === 3 ? 1 : 0;
+    } else {
+      const words = title.trim().split(/\s+/).filter(Boolean);
+      if (words.length <= 2) {
+        lines = words;
+      } else {
+        lines = [words[0], words.slice(1, -1).join(" "), words.at(-1)];
+      }
+      accentIndex = lines.length > 1 ? 1 : -1;
+    }
+
+    const longestLine = Math.max(...lines.map((line) => line.length));
+    const scale = Math.max(0.58, Math.min(1, 10 / longestLine));
+    wordmark.style.setProperty("--hero-scale", scale.toFixed(3));
+
+    for (const [index, line] of lines.entries()) {
+      const lineElement = document.createElement("span");
+      lineElement.className = "hero-wordmark-line";
+      if (index === accentIndex) {
+        lineElement.classList.add("hero-wordmark-accent");
+      }
+      lineElement.textContent = line;
+      wordmark.append(lineElement);
+    }
+
+    heading.replaceChildren(wordmark);
+  };
+
+  const heroImage = resume.frontmatter.hero?.image;
+  if (heroImage) {
+    const image = document.createElement("img");
+    image.className = "hero-wordmark";
+    image.alt = "";
+    image.setAttribute("aria-hidden", "true");
+    image.addEventListener("error", renderTextWordmark, { once: true });
+    image.src = /^(?:[a-z]+:|\/)/i.test(heroImage)
+      ? heroImage
+      : `${import.meta.env.BASE_URL}${heroImage.replace(/^\.\//, "")}`;
+    heading.replaceChildren(image);
+  } else {
+    renderTextWordmark();
+  }
 
   const header = document.createElement("header");
   header.id = "resume-header";
