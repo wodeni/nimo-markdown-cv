@@ -132,6 +132,7 @@ function prependIconToPublicationLink(anchorNode) {
 
   const label = getNodeText(anchorNode);
   const iconClass = iconClassForPublicationLink(label);
+  const labelChildren = anchorNode.children;
   anchorNode.children = [
     {
       type: "element",
@@ -139,8 +140,12 @@ function prependIconToPublicationLink(anchorNode) {
       properties: { className: iconClass.split(" "), "aria-hidden": "true" },
       children: [],
     },
-    { type: "text", value: " " },
-    ...anchorNode.children,
+    {
+      type: "element",
+      tagName: "span",
+      properties: { className: ["pub-link-label"] },
+      children: labelChildren,
+    },
   ];
 }
 
