@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -130,15 +132,21 @@ table {
 
 /* end of reset */
 
+html {
+  min-height: 100%;
+  background-color: #f4f4f5;
+}
+
 body {
   font: normal normal 400;
   font-size: 120%;
   line-height: 1.5em;
-  /*also written as...  font: normal normal 400 100%/1.5em;*/
-  font-family: "Helvetica", sans-serif;
-  margin: 0.5in 0.5in 0.5in 0.5in;
-  /* margin-top: 1em;
-	margin-left: 1em; */
+  font-family: "Open Sans", sans-serif;
+  color: #18181b;
+  background-color: inherit;
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 2.5rem 3rem 4rem;
 }
 
 strong {
@@ -154,41 +162,78 @@ em {
 }
 
 h1 {
-  font-family: "Avenir Next", sans-serif;
-  text-align: center;
-  /* font-size: 50pt; */
-  font-size: 600%;
-  font-weight: lighter;
-  position: relative;
-  line-height: 1.2em;
-  position: relative;
-  /* left: 28%; */
+  margin: 0;
 }
 
-h1 strong {
-  font-weight: normal !important;
-  line-height: 1em;
+#resume-header {
+  display: flex;
+  min-height: 16.5rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding-top: 2rem;
+}
+
+.hero-wordmark {
+  display: block;
+  width: 14.5rem;
+  height: 14.5rem;
+}
+
+.hero-wordmark-text {
+  display: flex;
+  width: max-content;
+  min-width: 14.5rem;
+  height: auto;
+  min-height: 14.5rem;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(4.1rem * var(--hero-scale, 1));
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.hero-wordmark-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-wordmark-accent {
+  color: #c559f4;
+  letter-spacing: -0.08em;
 }
 
 /* Section headers */
 h2 {
-  font-family: "Avenir Next", sans-serif;
-  /* font-size: 20pt; */
+  position: relative;
+  display: block;
+  width: auto;
+  margin-top: 1.6em;
+  margin-bottom: 0.55em;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
   font-size: 200%;
-  text-align: center;
-  font-weight: normal;
-  display: flex;
-  /* line-height: 1.5em; */
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
-  width: 100%;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-align: left;
 }
-h2:after {
-  border-bottom: 1.7px dashed #d3d3d3;
-  /* height: 0.8em; */
-  margin-left: 10px;
+
+h2::before {
   content: "";
-  flex: 1;
+  position: absolute;
+  top: 0.08em;
+  bottom: 0.08em;
+  left: 0;
+  width: 5px;
+  background-color: #c559f4;
+}
+
+h2::after {
+  display: none;
 }
 
 h3 strong {
@@ -196,74 +241,217 @@ h3 strong {
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 0.95em;
+  margin-bottom: 0.15em;
+  line-height: 1.35;
 }
 
-code {
-  font-family: "Palatino";
-  font-style: italic;
+p {
+  margin-top: 0.25em;
+  margin-bottom: 0.65em;
 }
 
-h3 > code {
+p + p {
+  margin-top: 0.85em;
+}
+
+.pub-before-venue {
+  margin-bottom: 0;
+}
+
+.pub-venue,
+.pub-links {
+  margin-top: 0;
+}
+
+.pub-venue {
+  margin-bottom: 0;
+}
+
+h3 + p {
+  margin-top: 0.1em;
+}
+
+ul,
+ol {
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+.metadata-pills {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25em;
+  text-indent: 0;
+  vertical-align: 0.08em;
+}
+
+.metadata-pill {
+  display: inline-block;
+  width: fit-content;
+  padding: 1px 0.25rem;
+  border-radius: 0.25rem;
+  background-color: rgba(212, 212, 216, 0.5);
+  box-shadow:
+    0 1px 2px rgba(24, 24, 27, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 0 0 1px rgba(24, 24, 27, 0.05);
+  color: #52525b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.82em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.metadata-separator {
+  color: #a1a1aa;
+  font-size: 0.72em;
+  line-height: 1;
+}
+
+h3 > .metadata-pills {
   float: right;
+  justify-content: flex-end;
+  margin-left: 0.5em;
 }
 
 @media screen and (min-width: 701px) {
-  li > code {
+  li > .metadata-pills {
     float: right;
+    max-width: 65%;
+    justify-content: flex-end;
+    margin-left: 0.5em;
   }
 }
 
 li:before {
-  content: "-";
-  position: relative;
-  left: -0.5em;
+  content: none;
 }
 
 li {
-  /*second line indent*/
-  padding-left: 2.25em;
-  text-indent: -1.25em;
-  /*color: #777;*/
+  padding-left: 0;
+  text-indent: 0;
+  margin-top: 0.12em;
+  margin-bottom: 0.12em;
+}
+
+.header-meta {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.8rem;
 }
 
 #contact-info {
-  text-align: center;
-  position: relative;
-  font-weight: lighter;
-  color: #ccc;
-  /* font-family: Menlo,monospace,sans-serif; */
+  color: #71717a;
   font-size: 80%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 1em;
-  row-gap: 0.2em;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.05em;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: right;
 }
 
 #contact-info .contact-entry {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
+  display: block;
+}
+
+.site-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
 
 #contact-info a {
   text-decoration: none;
 }
 
-.pub-links a {
-  white-space: nowrap;
-  margin-right: 0.6em;
+.download-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.5em 0.85em;
+  color: #3f3f46;
+  background: #e4e4e7;
+  font: inherit;
+  font-size: 72%;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: color 120ms ease, background-color 120ms ease, transform 120ms ease;
 }
 
-.pub-links a i {
-  margin-right: 0.2em;
+.download-pdf .site-icon {
+  width: 0.9em;
+  height: 0.9em;
+  color: #c559f4;
+}
+
+.download-pdf:hover {
+  color: #18181b;
+  background: #ddd6fe;
+  transform: translateY(-1px);
+}
+
+.download-pdf:focus-visible {
+  outline: 2px solid #c559f4;
+  outline-offset: 3px;
+}
+
+.download-pdf:disabled {
+  color: #71717a;
+  background: #e4e4e7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pub-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  white-space: nowrap;
+  margin-right: 0.6em;
+  text-decoration: none;
+}
+
+.pub-link-label {
+  text-decoration-color: rgba(197, 89, 244, 0.55);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 100ms ease-in-out;
+}
+
+.pub-links a:hover .pub-link-label,
+.pub-links a:focus-visible .pub-link-label {
+  text-decoration-color: #c559f4;
 }
 
 a {
-  text-decoration: none;
-  color: rgb(20, 116, 151);
+  color: inherit;
+  text-decoration-color: rgba(197, 89, 244, 0.55);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 100ms ease-in-out;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-color: #c559f4;
 }
 
 hr {
@@ -274,29 +462,57 @@ hr {
 @media screen and (max-width: 700px) {
   body {
     font-size: 100%;
-    margin: 0.2in 0.16in;
+    margin: 0 auto;
+    padding: 1.25rem 1rem 2.5rem;
     line-height: 1.45em;
   }
 
-  h1 {
-    font-size: 340%;
-    line-height: 1.1em;
+  #resume-header {
+    min-height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding-top: 1.5rem;
+  }
+
+  .hero-wordmark {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+
+  .hero-wordmark-text {
+    width: max-content;
+    min-width: 10.5rem;
+    height: auto;
+    min-height: 10.5rem;
+    font-size: calc(3rem * var(--hero-scale, 1));
+  }
+
+  .header-meta {
+    margin-bottom: 0;
+    align-self: flex-end;
+  }
+
+  #contact-info {
+    align-items: flex-end;
+    text-align: right;
   }
 
   h2 {
     font-size: 150%;
-    margin-top: 0.85em;
+    margin-top: 1.25em;
     margin-bottom: 0.6em;
   }
 
-  h2:after {
-    border-bottom: 1px dashed #d3d3d3;
-    margin-left: 8px;
+  h2::before {
+    width: 4px;
   }
 
-  h3 > code {
+  h3 > .metadata-pills {
     float: none;
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
     margin-top: 0.1em;
   }
 }

@@ -41,7 +41,7 @@ pnpm dev
 npm run dev
 yarn dev
 
-# production build
+# production build (includes the configured PDF when Chrome is available)
 pnpm build
 npm run build
 yarn build
@@ -62,6 +62,10 @@ Supported contact fields:
 
 ```yaml
 title: Your Name
+hero:
+  image: media/your-wordmark.svg
+pdf:
+  filename: your-name-cv
 homepage:
   url: https://example.com
   text: example.com
@@ -73,7 +77,20 @@ phone: +1 (555) 555-5555
 
 Use any subset of `homepage`, `email`, and `phone`; only provided fields are shown.
 
+The optional `pdf.filename` field controls the generated download name. The
+`.pdf` extension may be included or omitted; unsupported filename characters
+are replaced with hyphens. It defaults to `cv.pdf`.
+
+The `hero.image` field is optional. It accepts a path relative to the site root or
+an absolute URL. When it is omitted—or when the image cannot load—the title is
+rendered as a stacked text wordmark using the same black and purple styling.
+Quoted nicknames such as `Alex "Lex" Smith` are automatically used as the purple
+accent line.
+
 ## PDF output
 
-Use your browser print flow from the rendered page (`Cmd/Ctrl + P`).
-Screen/print styles are served from `public/media/`.
+Production builds generate the configured PDF file in `dist/` when Chrome or
+Chromium is available.
+The **Download PDF** button downloads that file directly. During development,
+the Vite server generates the same PDF on demand. Screen/print styles are served
+from `public/media/`.

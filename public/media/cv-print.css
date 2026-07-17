@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -134,11 +136,10 @@ body {
   font: normal normal 400;
   font-size: 11pt;
   line-height: 1.5em;
-  /*also written as...  font: normal normal 400 100%/1.5em;*/
-  font-family: "Helvetica", sans-serif;
-  /* margin: 0.5in 0.5in 0.5in 0.5in */
-  /* margin-top: 1em;
-	margin-left: 1em; */
+  font-family: "Open Sans", sans-serif;
+  color: #18181b;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 strong {
@@ -154,39 +155,79 @@ em {
 }
 
 h1 {
-  font-family: "Avenir Next", sans-serif;
-  text-align: center;
-  font-size: 50pt;
-  font-weight: lighter;
-  position: relative;
-  line-height: 1.2em;
-  position: relative;
-  /* left: 28%; */
+  margin: 0;
 }
 
-h1 strong {
-  font-weight: normal !important;
-  line-height: 1em;
+#resume-header {
+  display: flex;
+  min-height: 13rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding-top: 2rem;
+  page-break-inside: avoid;
+}
+
+.hero-wordmark {
+  display: block;
+  width: 11rem;
+  height: 11rem;
+}
+
+.hero-wordmark-text {
+  display: flex;
+  width: max-content;
+  min-width: 11rem;
+  height: auto;
+  min-height: 11rem;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(3.12rem * var(--hero-scale, 1));
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.hero-wordmark-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-wordmark-accent {
+  color: #c559f4;
+  letter-spacing: -0.08em;
 }
 
 /* Section headers */
 h2 {
-  font-family: "Avenir Next", sans-serif;
+  position: relative;
+  display: block;
+  width: auto;
+  margin-top: 1.35em;
+  margin-bottom: 0.55em;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
   font-size: 20pt;
-  text-align: center;
-  font-weight: normal;
-  display: flex;
-  /* line-height: 1.5em; */
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
-  width: 100%;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-align: left;
 }
-h2:after {
-  border-bottom: 1.7px dashed #d3d3d3;
-  /* height: 0.8em; */
-  margin-left: 10px;
+
+h2::before {
   content: "";
-  flex: 1;
+  position: absolute;
+  top: 0.08em;
+  bottom: 0.08em;
+  left: 0;
+  width: 5px;
+  background-color: #c559f4;
+}
+
+h2::after {
+  display: none;
 }
 
 h3 strong {
@@ -194,50 +235,127 @@ h3 strong {
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 0.72em;
+  margin-bottom: 0.08em;
+  line-height: 1.35;
 }
 
-code {
-  font-family: "Palatino";
-  font-style: italic;
+p {
+  margin-top: 0.16em;
+  margin-bottom: 0.42em;
+}
+
+p + p {
+  margin-top: 0.55em;
+}
+
+.pub-before-venue {
+  margin-bottom: 0;
+}
+
+.pub-venue,
+.pub-links {
+  margin-top: 0;
+}
+
+.pub-venue {
+  margin-bottom: 0;
+}
+
+h3 + p {
+  margin-top: 0.06em;
+}
+
+ul,
+ol {
+  margin-top: 0.2em;
+  margin-bottom: 0.45em;
+}
+
+.metadata-pills {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 65%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25em;
+  margin-left: 0.5em;
+  text-indent: 0;
+  vertical-align: 0.08em;
   float: right;
 }
 
+.metadata-pill {
+  display: inline-block;
+  width: fit-content;
+  padding: 1px 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #e4e4e7;
+  box-shadow: none;
+  color: #52525b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.82em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.metadata-separator {
+  color: #a1a1aa;
+  font-size: 0.72em;
+  line-height: 1;
+}
+
 li:before {
-  content: "-";
-  position: relative;
-  left: -0.5em;
+  content: none;
 }
 
 li {
-  /*second line indent*/
-  padding-left: 2.25em;
-  text-indent: -1.25em;
-  /*color: #777;*/
+  padding-left: 0;
+  text-indent: 0;
+  margin-top: 0.08em;
+  margin-bottom: 0.08em;
+}
+
+.header-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 #contact-info {
-  text-align: center;
-  position: relative;
-  font-weight: lighter;
-  color: #ccc;
-  /* font-family: Menlo,monospace,sans-serif; */
+  color: #71717a;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 1em;
-  row-gap: 0.2em;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.05em;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: right;
 }
 
 #contact-info .contact-entry {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
+  display: block;
+}
+
+.site-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
 
 #contact-info a {
   text-decoration: none;
+}
+
+.download-pdf {
+  display: none;
 }
 
 @media print {
@@ -256,8 +374,8 @@ li {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
-  color: rgb(20, 116, 151);
 }
 
 @media print {
