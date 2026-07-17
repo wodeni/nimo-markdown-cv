@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 import matter from "gray-matter";
 import { unified } from "unified";
@@ -7,6 +8,8 @@ import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
+import { findChrome, renderPdf } from "../scripts/render-pdf.mjs";
+import { getPdfFilename } from "../src/pdf-filename.js";
 
 const VIRTUAL_ID = "virtual:resume-data";
 const RESOLVED_VIRTUAL_ID = "\0" + VIRTUAL_ID;
@@ -200,6 +203,7 @@ async function markdownToHtml(markdown) {
 export default function resumePlugin({ markdownFile = "index.md" } = {}) {
   let rootDir = process.cwd();
   let markdownPath = path.resolve(rootDir, markdownFile);
+  let basePath = "/";
 
   async function buildModuleCode() {
     const source = await fs.readFile(markdownPath, "utf8");
@@ -218,6 +222,54 @@ export default function resumePlugin({ markdownFile = "index.md" } = {}) {
     configResolved(config) {
       rootDir = config.root;
       markdownPath = path.resolve(rootDir, markdownFile);
+      basePath = config.base;
+    },
+
+    configureServer(server) {
+      server.middlewares.use(async (request, response, next) => {
+        if (request.method !== "GET" || !request.url) return next();
+
+        const pathname = decodeURIComponent(
+          new URL(request.url, "http://localhost").pathname
+        );
+        if (!pathname.toLowerCase().endsWith(".pdf")) return next();
+
+        const source = await fs.readFile(markdownPath, "utf8");
+        const frontmatter = matter(source).data;
+        const pdfFilename = getPdfFilename(frontmatter.pdf?.filename);
+        if (pathname !== `${basePath}${pdfFilename}`) return next();
+
+        const chrome = await findChrome();
+        const address = server.httpServer?.address();
+        if (!chrome || !address || typeof address === "string") {
+          response.statusCode = 503;
+          response.end("PDF generation requires Chrome or Chromium.");
+          return;
+        }
+
+        const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "markdown-cv-pdf-"));
+        const outputPath = path.join(tempDir, pdfFilename);
+
+        try {
+          await renderPdf({
+            chrome,
+            outputPath,
+            url: `http://127.0.0.1:${address.port}${basePath}`,
+          });
+          const pdf = await fs.readFile(outputPath);
+          response.statusCode = 200;
+          response.setHeader("Content-Type", "application/pdf");
+          response.setHeader("Content-Length", String(pdf.length));
+          response.setHeader("Cache-Control", "no-store");
+          response.end(pdf);
+        } catch (error) {
+          console.error("Could not generate the development PDF:", error);
+          response.statusCode = 500;
+          response.end("Could not generate PDF.");
+        } finally {
+          await fs.rm(tempDir, { recursive: true, force: true });
+        }
+      });
     },
 
     resolveId(id) {

@@ -1,5 +1,6 @@
 import "./styles/tailwind.css";
 import resume from "virtual:resume-data";
+import { getPdfFilename } from "./pdf-filename.js";
 
 document.title = resume.title;
 
@@ -143,7 +144,11 @@ const createPdfButton = () => {
   button.innerHTML = `${icons["fa-file-pdf"]}<span>Download PDF</span>`;
 
   button.addEventListener("click", async () => {
-    const pdfUrl = `${import.meta.env.BASE_URL}cv.pdf`;
+    const pdfFilename = getPdfFilename(resume.frontmatter.pdf?.filename);
+    const pdfUrl = `${import.meta.env.BASE_URL}${pdfFilename}`;
+    const label = button.querySelector("span");
+    button.disabled = true;
+    if (label) label.textContent = "Preparing PDF…";
 
     try {
       const response = await fetch(pdfUrl, { cache: "no-store" });
@@ -159,13 +164,16 @@ const createPdfButton = () => {
       const download = document.createElement("a");
       const objectUrl = URL.createObjectURL(pdf);
       download.href = objectUrl;
-      download.download = "cv.pdf";
+      download.download = pdfFilename;
       document.body.append(download);
       download.click();
       download.remove();
       window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
-    } catch {
-      window.print();
+      button.disabled = false;
+      if (label) label.textContent = "Download PDF";
+    } catch (error) {
+      console.error("Could not download PDF:", error);
+      if (label) label.textContent = "PDF unavailable";
     }
   });
 

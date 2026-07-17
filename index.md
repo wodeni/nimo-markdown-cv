@@ -2,6 +2,8 @@
 title: Wode "Nimo" Ni
 hero:
   image: media/name-hero.svg
+pdf:
+  filename: wode-nimo-ni-cv
 email:
   url: mailto:wode.nimo.ni@gmail.com
   text: wode.nimo.ni@gmail.com

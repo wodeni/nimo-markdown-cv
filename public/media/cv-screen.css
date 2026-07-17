@@ -411,6 +411,13 @@ li {
   outline-offset: 3px;
 }
 
+.download-pdf:disabled {
+  color: #71717a;
+  background: #e4e4e7;
+  cursor: not-allowed;
+  transform: none;
+}
+
 .pub-links a {
   display: inline-flex;
   align-items: center;
