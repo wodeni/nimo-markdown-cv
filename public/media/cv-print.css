@@ -323,8 +323,13 @@ li {
   margin-bottom: 0.08em;
 }
 
+.header-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 #contact-info {
-  margin-bottom: 0;
   color: #71717a;
   display: flex;
   flex-direction: column;
@@ -350,6 +355,10 @@ li {
 
 #contact-info a {
   text-decoration: none;
+}
+
+.download-pdf {
+  display: none;
 }
 
 @media print {

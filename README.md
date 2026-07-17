@@ -41,7 +41,7 @@ pnpm dev
 npm run dev
 yarn dev
 
-# production build
+# production build (includes dist/cv.pdf when Chrome is available)
 pnpm build
 npm run build
 yarn build
@@ -83,5 +83,7 @@ accent line.
 
 ## PDF output
 
-Use your browser print flow from the rendered page (`Cmd/Ctrl + P`).
-Screen/print styles are served from `public/media/`.
+Production builds generate `dist/cv.pdf` when Chrome or Chromium is available.
+The **Download PDF** button downloads that file directly and falls back to the
+browser print flow during development. Screen/print styles are served from
+`public/media/`.

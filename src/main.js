@@ -136,6 +136,42 @@ for (const publicationLinks of content.querySelectorAll(".pub-links")) {
 const heading = content.querySelector("h1");
 const contactInfo = content.querySelector("#contact-info");
 
+const createPdfButton = () => {
+  const button = document.createElement("button");
+  button.className = "download-pdf";
+  button.type = "button";
+  button.innerHTML = `${icons["fa-file-pdf"]}<span>Download PDF</span>`;
+
+  button.addEventListener("click", async () => {
+    const pdfUrl = `${import.meta.env.BASE_URL}cv.pdf`;
+
+    try {
+      const response = await fetch(pdfUrl, { cache: "no-store" });
+      if (!response.ok) throw new Error(`PDF returned ${response.status}`);
+      if (!response.headers.get("content-type")?.includes("application/pdf")) {
+        throw new Error("PDF URL did not return a PDF");
+      }
+
+      const pdf = await response.blob();
+      const signature = await pdf.slice(0, 5).text();
+      if (signature !== "%PDF-") throw new Error("Downloaded file is not a PDF");
+
+      const download = document.createElement("a");
+      const objectUrl = URL.createObjectURL(pdf);
+      download.href = objectUrl;
+      download.download = "cv.pdf";
+      document.body.append(download);
+      download.click();
+      download.remove();
+      window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+    } catch {
+      window.print();
+    }
+  });
+
+  return button;
+};
+
 if (heading) {
   const title = resume.frontmatter.title || heading.textContent.trim();
   heading.classList.add("hero-heading");
@@ -196,10 +232,14 @@ if (heading) {
   }
 
   const header = document.createElement("header");
+  const headerMeta = document.createElement("div");
   header.id = "resume-header";
+  headerMeta.className = "header-meta";
   heading.before(header);
   header.append(heading);
   if (contactInfo) {
-    header.append(contactInfo);
+    headerMeta.append(contactInfo);
   }
+  headerMeta.append(createPdfButton());
+  header.append(headerMeta);
 }
