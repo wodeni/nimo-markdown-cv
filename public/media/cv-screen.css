@@ -255,6 +255,14 @@ p + p {
   margin-top: 0.85em;
 }
 
+.publication-before-award {
+  margin-bottom: 0;
+}
+
+.publication-award {
+  margin-top: 0;
+}
+
 .pub-before-venue {
   margin-bottom: 0;
 }

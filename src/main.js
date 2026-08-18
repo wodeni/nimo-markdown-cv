@@ -83,6 +83,14 @@ for (const oldIcon of content.querySelectorAll("i")) {
   );
   if (!iconClass) continue;
 
+  if (iconClass === "fa-award") {
+    const award = oldIcon.closest("p");
+    award?.classList.add("publication-award");
+    if (award?.previousElementSibling?.tagName === "P") {
+      award.previousElementSibling.classList.add("publication-before-award");
+    }
+  }
+
   const template = document.createElement("template");
   template.innerHTML = icons[iconClass].trim();
   oldIcon.replaceWith(template.content.firstElementChild);
