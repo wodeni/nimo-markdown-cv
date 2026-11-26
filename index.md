@@ -59,6 +59,20 @@ Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) t
 
 ## Publications
 
+### [**Schema: Discovering Unknown Environments via Agentic Program Induction**](https://arxiv.org/abs/2609.39140)
+Guanning Zeng, Jiani Wang, Wenjie Ma, Shaofeng Yin, Chenyang Wang, Shichen Liu, Angjoo Kanazawa, **Wode Ni**, Xiuyu Li, Andrea Zanette, and Haiwen Feng.
+
+_arXiv preprint, 2026._
+
+[Paper](https://arxiv.org/abs/2609.39140) [Project Page](https://schema-harness.github.io/)
+
+### [**Teaching Geometric Proof with Tech: Pitfalls and Possibilities**](https://arxiv.org/abs/2608.25117)
+Hwei-Shin Harriman, **Wode Ni**, Yuchen Jin, Dominik Moritz, and Joshua Sunshine.
+
+_International Journal of Human Computer Interaction, 2026._
+
+[PDF](https://arxiv.org/pdf/2608.25117)
+
 ### [**Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**](https://wodenimoni.com/assets/las-24-edgeworth.pdf)
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine.
 
