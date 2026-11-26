@@ -114,7 +114,7 @@ function iconClassForPublicationLink(label) {
   if (normalized === "video preview") return "fas fa-video";
   if (normalized === "talk") return "fas fa-microphone";
   if (normalized === "slides") return "fas fa-desktop";
-  if (normalized === "www") return "fas fa-globe";
+  if (normalized === "www" || normalized === "project page") return "fas fa-globe";
   if (normalized === "repo") return "fab fa-github";
   return "fas fa-link";
 }
