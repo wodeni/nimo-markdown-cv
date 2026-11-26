@@ -1,5 +1,9 @@
 ---
 title: Wode "Nimo" Ni
+hero:
+  image: media/name-hero.svg
+pdf:
+  filename: wode-nimo-ni-cv
 email:
   url: mailto:wode.nimo.ni@gmail.com
   text: wode.nimo.ni@gmail.com
@@ -54,6 +58,20 @@ _Research Intern_
 Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience, published at UIST'21.
 
 ## Publications
+
+### [**Schema: Discovering Unknown Environments via Agentic Program Induction**](https://arxiv.org/abs/2609.39140)
+Guanning Zeng, Jiani Wang, Wenjie Ma, Shaofeng Yin, Chenyang Wang, Shichen Liu, Angjoo Kanazawa, **Wode Ni**, Xiuyu Li, Andrea Zanette, and Haiwen Feng.
+
+_arXiv preprint, 2026._
+
+[Paper](https://arxiv.org/abs/2609.39140) [Project Page](https://schema-harness.github.io/)
+
+### [**Teaching Geometric Proof with Tech: Pitfalls and Possibilities**](https://arxiv.org/abs/2608.25117)
+Hwei-Shin Harriman, **Wode Ni**, Yuchen Jin, Dominik Moritz, and Joshua Sunshine.
+
+_International Journal of Human Computer Interaction, 2026._
+
+[PDF](https://arxiv.org/pdf/2608.25117)
 
 ### [**Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**](https://wodenimoni.com/assets/las-24-edgeworth.pdf)
 **Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine.
